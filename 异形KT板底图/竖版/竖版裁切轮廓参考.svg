@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400mm" height="600mm" viewBox="0 0 1200 1800"><title>竖版异形KT板裁切轮廓参考</title><path id="cut-contour" d="M 245,130 L 245,95 H 380 L 425,50 H 745 L 790,95 H 940
+C 1000,95 1040,140 1040,185 H 1110 V 400 L 1155,445 V 690 L 1110,735
+V 960 L 1155,1000 V 1230 L 1110,1270 V 1515 H 1055 V 1625
+C 1055,1685 1010,1725 950,1725 H 800 L 760,1760 H 460 L 420,1725 H 270
+C 205,1725 155,1680 155,1620 V 1555 H 85 V 1430 L 45,1390 V 1140 L 85,1100
+V 825 L 45,785 V 560 L 85,480 V 230 C 85,170 125,130 185,130 Z" fill="none" stroke="#f400d6" stroke-width="1.5" stroke-linejoin="round"/></svg>
