@@ -1,0 +1,578 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-10-24",
+  "timezone": "Asia/Shanghai",
+  "description": "31个公开页面，HTML与提取文本各31份，另附2份当时使用的原始脚本。仅记录本次检索，不表示实时在招。",
+  "files": [
+    {
+      "file": "australia.html",
+      "bytes": 557540,
+      "sha256": "9115d3ca4942126cef0aca4a0cd05a47272c30553df3ee0736298cdef72d13e7",
+      "url": "https://www.shixiseng.com/intern/inn_wmcxug6mmrfx",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "australia.txt",
+      "bytes": 2267,
+      "sha256": "0a5af0f7fb88e61068c3e46548517ff885039f2f81b50b29f04507c7a5e5d00e",
+      "url": "https://www.shixiseng.com/intern/inn_wmcxug6mmrfx",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "bing.html",
+      "bytes": 560361,
+      "sha256": "ea65bd1fef2322c574273f9f5538887cefde9b0283249718ad5b31f4dffe822a",
+      "url": "https://www.shixiseng.com/intern/inn_9upz0pvheggg",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "bing.txt",
+      "bytes": 2402,
+      "sha256": "db32e56fcf491495e75ca71621aed930b2d672d765e67b40648d5916ac2377cb",
+      "url": "https://www.shixiseng.com/intern/inn_9upz0pvheggg",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "boss.html",
+      "bytes": 9613,
+      "sha256": "965bece9f8b25ffb79e912202cfa510c07189728174b6fd0e012f58c2d8bc039",
+      "url": "https://www.zhipin.com/web/geek/job?query=%E6%96%B0%E5%AA%92%E4%BD%93%E5%AE%9E%E4%B9%A0&city=101210400",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "boss.txt",
+      "bytes": 39,
+      "sha256": "df181af5eb62a5e20dea37b3771586410537385050bfbc69e0a4b9740b98abc7",
+      "url": "https://www.zhipin.com/web/geek/job?query=%E6%96%B0%E5%AA%92%E4%BD%93%E5%AE%9E%E4%B9%A0&city=101210400",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "calm.html",
+      "bytes": 565480,
+      "sha256": "a430852052205cf797c299814a8dc8236762347df047b3375925801279fa7ba2",
+      "url": "https://www.shixiseng.com/intern/inn_szd4hwagth0h",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "calm.txt",
+      "bytes": 4739,
+      "sha256": "4902835e20d279cca357498a51231a5d33e169a88feb706fe5c47373f11706b7",
+      "url": "https://www.shixiseng.com/intern/inn_szd4hwagth0h",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "campus.html",
+      "bytes": 557551,
+      "sha256": "960c69d9e90a2be7189c2e52b445926dccba69ed509e2a0f3b19c391e5c5e30b",
+      "url": "https://www.shixiseng.com/intern/inn_adhoe9hzloag",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "campus.txt",
+      "bytes": 2181,
+      "sha256": "04cfe0da1e6220afa95110302ddde1ab935219dde833b1147b36bdb267dc29c6",
+      "url": "https://www.shixiseng.com/intern/inn_adhoe9hzloag",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "describer.html",
+      "bytes": 566859,
+      "sha256": "dcb2af4bc76db9d719435405565dce23a4a84a5a47545dc74018a61eb7ff92a8",
+      "url": "https://www.shixiseng.com/intern/inn_zinunfx0c52l",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "describer.txt",
+      "bytes": 4206,
+      "sha256": "aca566182961045ec0f2c043f3493a1360a73bafb19b9f0067ea5f0e6af19687",
+      "url": "https://www.shixiseng.com/intern/inn_zinunfx0c52l",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "duojing.html",
+      "bytes": 557340,
+      "sha256": "20a03ec15bcd3e1b22bb19161192d134ed4a137b8dc9e87d5516556cb9de3534",
+      "url": "https://www.shixiseng.com/intern/inn_jrqjfnz9cxyi",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "duojing.txt",
+      "bytes": 1982,
+      "sha256": "7874a0086d68e7075aa74d22ab5cb2f1fe50afb6292cd685fb85036866f4400f",
+      "url": "https://www.shixiseng.com/intern/inn_jrqjfnz9cxyi",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "editor.html",
+      "bytes": 557116,
+      "sha256": "b79776972278c6985d9ce94284d25e6a960fb01bcca18a0c5c1c314e59127441",
+      "url": "https://www.shixiseng.com/intern/inn_vugxvypgqln8",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "editor.txt",
+      "bytes": 1905,
+      "sha256": "db63f71d017bc8b02d4b1d4155c99a325b88562d06f953bf4f46d0fad7abc75d",
+      "url": "https://www.shixiseng.com/intern/inn_vugxvypgqln8",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "fab.html",
+      "bytes": 560782,
+      "sha256": "12294b865078d313cc7397ea8075a1a45ded6e8c99d0c232e9fbf399c842bfd3",
+      "url": "https://www.shixiseng.com/intern/inn_p42afwxoe9pr",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "fab.txt",
+      "bytes": 2347,
+      "sha256": "7163fcbf84ab02c6d47a6aac4c57490c57b8a20d840fd64512aea57840aab2d5",
+      "url": "https://www.shixiseng.com/intern/inn_p42afwxoe9pr",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "jichuang.html",
+      "bytes": 560242,
+      "sha256": "ca18bfce465dd34400936026cd319bcee9bd410baf2d6ee2b9a2f41ea8980c63",
+      "url": "https://www.shixiseng.com/intern/inn_3zp9hfpiwu3i",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "jichuang.txt",
+      "bytes": 2123,
+      "sha256": "25494abd7355e37c3cced379011357800438efe2dc964ecf56b4d2770f73b5bd",
+      "url": "https://www.shixiseng.com/intern/inn_3zp9hfpiwu3i",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "lang.html",
+      "bytes": 557015,
+      "sha256": "f045fd25026d220a5d5e3c844019b72967d9ba125c710732969f382801f3b0be",
+      "url": "https://www.shixiseng.com/intern/inn_egteuxavrh9f",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "lang.txt",
+      "bytes": 2024,
+      "sha256": "40fd1d30b32065969e87063ce8f033bd9173cb22ad55d7b3d045ec5db812639b",
+      "url": "https://www.shixiseng.com/intern/inn_egteuxavrh9f",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "local.html",
+      "bytes": 561045,
+      "sha256": "d20a2e4e6732fed464013d93a61c23dd49afbfca672d14d2b4c2ed86ec5fa84b",
+      "url": "https://www.shixiseng.com/intern/inn_oeinep1vernu",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "local.txt",
+      "bytes": 2656,
+      "sha256": "2fefb037f253b03e28135d465f655a1ba5f5cf386faa842f7089b8e3bb83d436",
+      "url": "https://www.shixiseng.com/intern/inn_oeinep1vernu",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "minsi.html",
+      "bytes": 562257,
+      "sha256": "74d48c94eb0dfd79dd25a9736c9ed7081dd1209deee335c33fa36f0152ef126f",
+      "url": "https://www.shixiseng.com/intern/inn_v9q3wzebcopl",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "minsi.txt",
+      "bytes": 3366,
+      "sha256": "d9afc0ebcee5556dc15796f8e235236b353caed87211dcc062602009ed9cef72",
+      "url": "https://www.shixiseng.com/intern/inn_v9q3wzebcopl",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "ningbo.html",
+      "bytes": 542266,
+      "sha256": "a916eaf79e8f79465351e16ec2ad6e8069f84bf719f3435c5a95f2745a154d7a",
+      "url": "https://www.shixiseng.com/interns?keyword=%E6%96%B0%E5%AA%92%E4%BD%93&city=%E5%AE%81%E6%B3%A2",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "ningbo.txt",
+      "bytes": 2524,
+      "sha256": "8d72ff10138fb03f705828fb79fdc247accd466fb8b5d7c51c66c4d06e48894a",
+      "url": "https://www.shixiseng.com/interns?keyword=%E6%96%B0%E5%AA%92%E4%BD%93&city=%E5%AE%81%E6%B3%A2",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "psych.html",
+      "bytes": 559709,
+      "sha256": "3217f71a59d2c30ef786ac601dedcdc78562b88c832811e319e4c187ac50157c",
+      "url": "https://www.shixiseng.com/intern/inn_rxpeumrfrzxa",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "psych.txt",
+      "bytes": 3132,
+      "sha256": "221bcf1c5a832d476c774d2fd97fffaf78b1eeccd4bfb4b37868e962f729aa1e",
+      "url": "https://www.shixiseng.com/intern/inn_rxpeumrfrzxa",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "search内容运营.html",
+      "bytes": 593749,
+      "sha256": "25d6ce5181d7ea73d8b6636aa2a8a1bfff4f3c595f0cb68c5bfdc532da931840",
+      "url": "https://www.shixiseng.com/interns?keyword=%E5%86%85%E5%AE%B9%E8%BF%90%E8%90%A5&city=%E5%AE%81%E6%B3%A2",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "search内容运营.txt",
+      "bytes": 7603,
+      "sha256": "dba7a7629eee3adf89a0efa04eb39259e0a7eccded563326ddd8ee0efdf080c0",
+      "url": "https://www.shixiseng.com/interns?keyword=%E5%86%85%E5%AE%B9%E8%BF%90%E8%90%A5&city=%E5%AE%81%E6%B3%A2",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "search文旅.html",
+      "bytes": 534255,
+      "sha256": "a3642d96a4a9bd974db0bbd32bf8d66ea79c665e18ed642c7083e0d288a2cbbf",
+      "url": "https://www.shixiseng.com/interns?keyword=%E6%96%87%E6%97%85&city=%E5%AE%81%E6%B3%A2",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "search文旅.txt",
+      "bytes": 1617,
+      "sha256": "1bdb1d2779589ed956d4eeada2c5b95a21d6bf04b93efdd6f12f522a0fd466bd",
+      "url": "https://www.shixiseng.com/interns?keyword=%E6%96%87%E6%97%85&city=%E5%AE%81%E6%B3%A2",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "search文案.html",
+      "bytes": 534991,
+      "sha256": "b2dcffac7c4d14574bbb0ca9097757c6d5f9bf7ab36ccb2b7fad5b8b2a997f58",
+      "url": "https://www.shixiseng.com/interns?keyword=%E6%96%87%E6%A1%88&city=%E5%AE%81%E6%B3%A2",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "search文案.txt",
+      "bytes": 1708,
+      "sha256": "1e5b8d9a097b6e2f47a781a0da4ac835d41fe490ee7b4f0367c68d43bcea07e3",
+      "url": "https://www.shixiseng.com/interns?keyword=%E6%96%87%E6%A1%88&city=%E5%AE%81%E6%B3%A2",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "search用户研究.html",
+      "bytes": 544644,
+      "sha256": "89c00c02a7fc0faa944698c948d098eb6c6d3acfd749fa2fe7c60e981ccb7d39",
+      "url": "https://www.shixiseng.com/interns?keyword=%E7%94%A8%E6%88%B7%E7%A0%94%E7%A9%B6&city=%E5%AE%81%E6%B3%A2",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "search用户研究.txt",
+      "bytes": 2690,
+      "sha256": "3d653db79f469aedf8c6d7d47709d39521ce3f7ea2adbc5f305f570fe56827aa",
+      "url": "https://www.shixiseng.com/interns?keyword=%E7%94%A8%E6%88%B7%E7%A0%94%E7%A9%B6&city=%E5%AE%81%E6%B3%A2",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "shengtai.html",
+      "bytes": 560080,
+      "sha256": "9e402f8b02501e39eea9898c08a20551da8ac8a5c1baa6844503328a4cc410cb",
+      "url": "https://www.shixiseng.com/intern/inn_rigcz86bzyti",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "shengtai.txt",
+      "bytes": 2006,
+      "sha256": "5e1f3146b5e85e82622e48fc3194b1a4ad4ca8929b36a7d2a169f9a2c1cb5b7a",
+      "url": "https://www.shixiseng.com/intern/inn_rigcz86bzyti",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "short.html",
+      "bytes": 583854,
+      "sha256": "f924b453ad151e04b8dee983bacfc16cf6d155f75363852c5b2c819a66552ac9",
+      "url": "https://www.shixiseng.com/interns?keyword=%E6%96%B0%E5%AA%92%E4%BD%93&city=%E5%85%A8%E5%9B%BD&months=1",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "short.txt",
+      "bytes": 6539,
+      "sha256": "6dd7c67645c606991e59965c93d881abebf8f13530efc1a278912f966eb178a2",
+      "url": "https://www.shixiseng.com/interns?keyword=%E6%96%B0%E5%AA%92%E4%BD%93&city=%E5%85%A8%E5%9B%BD&months=1",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "siyong.html",
+      "bytes": 559663,
+      "sha256": "f3da58f945ed53a825705918280303249ac49e631231e6243cebbab04d05e728",
+      "url": "https://www.shixiseng.com/intern/inn_z9khuzx8ws5k",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "siyong.txt",
+      "bytes": 1964,
+      "sha256": "5f6403d1149a111eaa2b67e67f7963c63b9ede55e082f2141743cd05de1483d2",
+      "url": "https://www.shixiseng.com/intern/inn_z9khuzx8ws5k",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "tourism.html",
+      "bytes": 558040,
+      "sha256": "d07a56ce9bccbdeee3fb0f09e5c59b63486f6d499a3a40a9c5a1677503a0d78f",
+      "url": "https://www.shixiseng.com/intern/inn_2ymtdeudgszu",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "tourism.txt",
+      "bytes": 2800,
+      "sha256": "72db505aab8b53ccd978b0a7d3860738e0925b4acdb5a27b53c326f7b9bbc79a",
+      "url": "https://www.shixiseng.com/intern/inn_2ymtdeudgszu",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "visual.html",
+      "bytes": 559356,
+      "sha256": "ff310b65d06b815dacf7af3679294d64b19fe3a08b2b717c17fdc3eab76f6755",
+      "url": "https://www.shixiseng.com/intern/inn_exjykgpmldg3",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "visual.txt",
+      "bytes": 3277,
+      "sha256": "b29874ddcddc4cff538b6b55b1f8619fc7d5e5573d563a8c28229af90279eb1c",
+      "url": "https://www.shixiseng.com/intern/inn_exjykgpmldg3",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "wang.html",
+      "bytes": 559628,
+      "sha256": "526ea4346b23e7e988e4fa31cbf077064c842fe26f550df9e29ec3e2ba01963e",
+      "url": "https://www.shixiseng.com/intern/inn_1q4gymehze5i",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "wang.txt",
+      "bytes": 1921,
+      "sha256": "8802495a80e2efa8951c86b9e80054b685f240d19c91b6347fcaada8dffa0654",
+      "url": "https://www.shixiseng.com/intern/inn_1q4gymehze5i",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "winter.html",
+      "bytes": 598686,
+      "sha256": "3595f936bc15a62836b977e1435af47496ece643e316546f0fe58347f5e1746a",
+      "url": "https://www.shixiseng.com/interns?keyword=%E5%AF%92%E5%81%87&city=%E5%AE%81%E6%B3%A2",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "winter.txt",
+      "bytes": 8326,
+      "sha256": "1223fd24091ddf2ad3aae0bdb629ee3986d0bf78d7a15d1461e560aaeb458402",
+      "url": "https://www.shixiseng.com/interns?keyword=%E5%AF%92%E5%81%87&city=%E5%AE%81%E6%B3%A2",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "xinfu.html",
+      "bytes": 560103,
+      "sha256": "438c23968ef4757ed4ba4a01fc37edec92bd4cc9f0535e51a78c73f21f1fdf2d",
+      "url": "https://www.shixiseng.com/intern/inn_pumqch3hwn8o",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "xinfu.txt",
+      "bytes": 2114,
+      "sha256": "342bb212aa6b3099e7cb176c3e168f469d607a5ad6bf5d30bd83e9aaee4b5727",
+      "url": "https://www.shixiseng.com/intern/inn_pumqch3hwn8o",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "xinfu2.html",
+      "bytes": 560324,
+      "sha256": "6ca2a5931d870a1590a79c7d4b893737b49b20cb0e9c0d06fd8894a636431043",
+      "url": "https://www.shixiseng.com/intern/inn_3o4ue2mvwmn7",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "xinfu2.txt",
+      "bytes": 2200,
+      "sha256": "9705d4a1138e4e38cdccb61cd8fbc83e0a36ebe3a4d5a044729691889778fab3",
+      "url": "https://www.shixiseng.com/intern/inn_3o4ue2mvwmn7",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "zhaopin.html",
+      "bytes": 347327,
+      "sha256": "257c1ec1c64d5a6a7a47087796641ad316461d8ebe1a0108c0bf78eda90083eb",
+      "url": "https://www.zhaopin.com/sou/jl653/kw%E6%96%B0%E5%AA%92%E4%BD%93%E5%AE%9E%E4%B9%A0/",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "zhaopin.txt",
+      "bytes": 8286,
+      "sha256": "703cc917985eb7ce7730b552007d28e2473d91dae520538cb3df6ec685fe4f09",
+      "url": "https://www.zhaopin.com/sou/jl653/kw%E6%96%B0%E5%AA%92%E4%BD%93%E5%AE%9E%E4%B9%A0/",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "zhijian.html",
+      "bytes": 560058,
+      "sha256": "6768712046e5c93a48ca9901d20f0a12c83094ada26b4dcb1a3011f83439fabf",
+      "url": "https://www.shixiseng.com/intern/inn_szbn8v49cedu",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "zhijian.txt",
+      "bytes": 2925,
+      "sha256": "cbc2e17d18b0ef09a889345b099ba0edac19e23abd573d1fb8ecdef485be3c7c",
+      "url": "https://www.shixiseng.com/intern/inn_szbn8v49cedu",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "detail"
+    },
+    {
+      "file": "zlningbo.html",
+      "bytes": 132430,
+      "sha256": "8e530856e9cc1688e20a340dc98b5d2345ea35d48468e3db6d25a796795510e6",
+      "url": "https://www.zhaopin.com/sou/jl654/kw%E6%96%B0%E5%AA%92%E4%BD%93%E5%AE%9E%E4%B9%A0/",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "zlningbo.txt",
+      "bytes": 3053,
+      "sha256": "f84fe4eafb55aced6c89d992035bebf416fc7c732d9706081d7eca68bbe321fc",
+      "url": "https://www.zhaopin.com/sou/jl654/kw%E6%96%B0%E5%AA%92%E4%BD%93%E5%AE%9E%E4%B9%A0/",
+      "checked_date": "2026-10-24",
+      "timezone": "Asia/Shanghai",
+      "kind": "search"
+    },
+    {
+      "file": "original_scripts/fetch.py",
+      "bytes": 1061,
+      "sha256": "368e37c4d6811d3a7d7d00296e9a3288f43f98acb63b3e6992d3bbbb3f090b14",
+      "kind": "original_script"
+    },
+    {
+      "file": "original_scripts/export.py",
+      "bytes": 8750,
+      "sha256": "76d4619c498452140e76b7bd9ee84faa4b5d8a2db57bc65269d2fcf47307a1bb",
+      "kind": "original_script"
+    }
+  ]
+}
