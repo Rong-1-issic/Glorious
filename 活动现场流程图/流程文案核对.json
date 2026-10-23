@@ -1,0 +1,102 @@
+{
+  "event_name": "WowLand百校造百岛·【宁波大学】站",
+  "title": "开营辅导（标准议程）",
+  "day1": "DAY 1",
+  "day1_range": "09:30—18:30",
+  "events": [
+    {
+      "id": "opening",
+      "source_time": "10:00—10:20",
+      "time": "09:30—09:50",
+      "title": "发起人开场",
+      "note": "介绍Wowland，",
+      "tone": "pink",
+      "icon": "mic"
+    },
+    {
+      "id": "mentor",
+      "source_time": "10:20—10:40",
+      "time": "09:50—10:10",
+      "title": "业务导师分享课程",
+      "note": "播放业务导师的线上录制课程，分享使用方法和已有案例",
+      "tone": "cyan",
+      "icon": "play"
+    },
+    {
+      "id": "peer",
+      "source_time": "10:40—11:00",
+      "time": "10:10—10:30",
+      "title": "朋辈导师分享与QA",
+      "note": "个人世界创作分享等，分享答疑",
+      "tone": "lime",
+      "icon": "people"
+    },
+    {
+      "id": "rules",
+      "source_time": "11:00—11:10",
+      "time": "10:30—10:40",
+      "title": "赛制、提交规范与常见问题答疑，大合照",
+      "note": "",
+      "tone": "pink",
+      "icon": "list"
+    },
+    {
+      "id": "initial",
+      "source_time": "11:10—12:00",
+      "time": "10:40—11:30",
+      "title": "同学们上手初步制作世界，选手明确创作主题",
+      "note": "",
+      "tone": "cyan",
+      "icon": "cube"
+    },
+    {
+      "id": "lunch",
+      "source_time": "12:00—13:00",
+      "time": "11:30—13:00",
+      "title": "午餐时间",
+      "note": "",
+      "tone": "lime",
+      "icon": "cup"
+    },
+    {
+      "id": "creation",
+      "source_time": "13:00—18:00",
+      "time": "13:00—18:00",
+      "title": "制作世界",
+      "note": "",
+      "tone": "cyan",
+      "icon": "cube",
+      "child": {
+        "id": "tea",
+        "time": "15:00—16:00",
+        "title": "下午茶＋作品试玩互评；根据反馈继续迭代",
+        "note": "下午建议设置一场茶歇，发起人主持，让选手们有空间自由创造",
+        "tone": "pink",
+        "icon": "controller"
+      }
+    },
+    {
+      "id": "submission",
+      "source_time": "18:00",
+      "time": "18:00",
+      "title": "世界提交入口开放，线下活动准备散场",
+      "note": "选手可先提交初版，至活动结束前均可继续修改",
+      "tone": "pink",
+      "icon": "upload"
+    }
+  ],
+  "later": {
+    "day": "DAY 2-6",
+    "time": "全天",
+    "title": "每日持续创作与迭代：",
+    "items": [
+      "群内发布当天任务、作品案例或技巧",
+      "选手同步进度、互相试玩，并在群内提问"
+    ]
+  },
+  "source_completions": {
+    "mentor": "分享使用方法和已有案例",
+    "tea": "有空间自由创造",
+    "after_day2_6": "无流程"
+  }
+}
