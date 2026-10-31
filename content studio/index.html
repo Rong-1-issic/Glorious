@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eeeee8">
+  <meta name="description" content="content studio：从消费者评论出发，连接文化语境与品牌事实，准备有据可循的跨境内容。">
+  <title>content studio · 让跨境表达有据可循</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2716%27 fill=%27%23dce3d8%27/%3E%3Cpath d=%27M44 18 37 37 18 46 26 27Z%27 fill=%27%234c6666%27/%3E%3C/svg%3E">
+  <style>
+    :root{--bg:#f3f2ed;--paper:#fcfcf9;--ink:#304953;--muted:#6c7d80;--line:#dcdfd7;--sage:#dce3d8;--blue:#dce5e8;--accent:#4c6666;--radius:20px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg);font-synthesis:none}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;line-height:1.7}button,input,select,textarea{font:inherit}button,a,input,select,textarea{-webkit-tap-highlight-color:transparent}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.55}a{color:inherit;text-decoration:none}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #9aafaa;outline-offset:4px}button{color:inherit}h1,h2,h3,p{margin:0}svg{display:block;flex-shrink:0}button svg{width:16px;height:16px}main,header,footer{max-width:1160px;margin:auto;padding-inline:28px}.topbar{height:102px;display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{display:flex;align-items:center;gap:12px}.brand-icon{width:42px;height:46px;color:#365566}.brand-name{font-family:Georgia,"Times New Roman",serif;font-size:25px;font-weight:600;letter-spacing:-.8px;line-height:1.15}.brand-sub{display:block;font-size:8px;letter-spacing:2.1px;margin-top:6px;color:#75868b}.nav{display:flex;align-items:center;gap:30px;font-size:12px;color:var(--muted)}.nav a:hover{color:var(--ink)}.nav .nav-action{padding:10px 17px;border:1px solid #cbd4cb;border-radius:99px;color:var(--ink)}
+    .hero{position:relative;isolation:isolate;display:grid;grid-template-columns:1.35fr 1fr;gap:35px;align-items:center;padding:49px 54px 43px;min-height:390px;border:1px solid #d6dfdc;border-radius:24px;background:radial-gradient(ellipse at 84% 17%,#cddde4 0%,transparent 58%),radial-gradient(ellipse at 55% 115%,#fffefa 15%,transparent 65%),#e5eae4;overflow:hidden}.eyebrow{display:flex;align-items:center;gap:9px;font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:#657e79}.eyebrow:before{content:"";height:1px;width:25px;background:#80978b}.hero h1{font-size:clamp(28px,3.6vw,43px);font-weight:500;letter-spacing:-1.5px;line-height:1.48;margin:20px 0 16px}.hero h1 span{color:#607f78}.intro{font-size:13px;line-height:2.1;color:#677c7d;max-width:500px}.hero-bottom{display:flex;gap:14px;align-items:center;margin-top:26px}.primary,.secondary{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid transparent;border-radius:9px;padding:11px 17px;font-size:12px;font-weight:500;line-height:1.5}.primary{background:var(--accent);color:white}.primary:not(:disabled):hover{background:#3d5757}.secondary{background:var(--paper);border-color:var(--line);color:#607374}.secondary:hover{background:#edf0e9}.hero-note{font-size:10px;color:#7c8e88}.hero-visual{position:relative;display:flex;align-items:center;justify-content:center;min-height:260px}.orbit{position:absolute;width:245px;height:245px;border:1px solid #b7caca99;border-radius:50%}.orbit:after{content:"";position:absolute;inset:24px -27px;border:1px solid #b7caca80;border-radius:50%;transform:rotate(-30deg)}.compass{width:150px;height:150px;color:#52717d;z-index:1}.floating-tag{position:absolute;background:#ffffffb8;border:1px solid #edf0e9;border-radius:9px;box-shadow:0 6px 30px #30495306;padding:9px 13px;font-size:10px;color:#6c8582;z-index:2}.tag-one{left:0;top:24px;transform:rotate(-5deg)}.tag-two{right:-6px;bottom:28px;transform:rotate(5deg)}.visual-dot{height:9px;width:9px;border-radius:50%;background:#a5b9a5;position:absolute;right:16px;top:50px;box-shadow:0 0 0 6px #dce6dc}
+    .feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:20px 0 46px}.feature{padding:23px 25px;background:#fafaf6;border:1px solid var(--line);border-radius:14px}.feature-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:13px}.feature-number{font:12px Georgia,serif;color:#91a096}.feature-icon{font-size:11px;color:#8ba39a}.feature h3{font-size:14px;font-weight:600;margin-bottom:7px}.feature p{font-size:11px;color:#7b8986;line-height:1.9}.section-heading{display:flex;justify-content:space-between;align-items:end;margin:0 0 19px;gap:16px}.section-heading h2{font-size:23px;font-weight:500;letter-spacing:-.6px;margin-top:8px}.section-heading p{font-size:11px;color:#83918c}.workbench{display:grid;grid-template-columns:300px minmax(0,1fr);border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);overflow:hidden;box-shadow:0 12px 45px #43534403}.context{padding:25px;background:#f0f2ec;border-right:1px solid var(--line);min-width:0}.context-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:7px}.context h3{font-size:14px;font-weight:600}.small-label{font-size:9px;color:#87938b;border:1px solid #d4ddd0;padding:2px 6px;border-radius:4px}.context>p{font-size:10px;color:#829083;line-height:1.9;margin-bottom:23px}label{display:block;font-size:11px;color:#6d7d75;margin:0 0 16px}label>span{display:block;margin-bottom:7px}input,select,textarea{width:100%;min-width:0;background:#fcfdf9;border:1px solid #d6ded2;color:#465f58;border-radius:7px;font-size:12px;padding:10px 11px}textarea{resize:vertical;line-height:1.85;min-height:134px}input::placeholder,textarea::placeholder{color:#a2ada2}label small{display:block;font-size:9px;line-height:1.8;color:#91a08e;margin-top:5px}.divider{height:1px;background:#dce2d7;margin:24px 0}.context-prompt{font-size:10px;color:#768778;margin-bottom:10px}.prompt-chip{display:block;text-align:left;border:1px solid #d8e1d3;border-radius:7px;width:100%;padding:10px 12px;background:#f9fbf5;font-size:11px;margin:8px 0;color:#718373}.prompt-chip:hover{background:#e8eee3}.context-bottom{font-size:9px;line-height:1.85;color:#8a9989;margin-top:21px}.chat{display:flex;flex-direction:column;min-width:0}.chat-header{padding:21px 25px;border-bottom:1px solid #e5e8e0;display:flex;align-items:center;justify-content:space-between;gap:12px}.chat-heading{display:flex;align-items:center;gap:11px}.assistant-icon{width:35px;height:35px;border-radius:10px;background:#e4eae4;display:grid;place-items:center;font:20px Georgia,serif;color:#5f7d73}.chat-header h3{font-size:13px;font-weight:600}.chat-header small{display:block;font-size:9px;color:#8b9a91;margin-top:3px}.status{font-size:10px;border:1px solid #dfdfd3;background:#f3f2e9;color:#969077;border-radius:99px;padding:4px 9px;white-space:nowrap}.status.loaded{background:#eaf0e5;border-color:#d9e3d2;color:#6a8663}.ai-stage{position:relative;min-height:320px;flex:1;display:grid;place-items:center;background:radial-gradient(ellipse at center,#f7f9f3,#fdfdfa)}.empty-state{text-align:center;padding:38px 24px;max-width:435px}.empty-icon{margin:0 auto 18px;width:62px;height:62px;display:grid;place-items:center;border:1px solid #dce5dc;border-radius:19px;background:#f0f4ed;color:#819b8a;font:28px Georgia,serif}.empty-state h3{font-size:18px;font-weight:500;margin-bottom:10px}.empty-state p{color:#91a08e;font-size:11px;line-height:1.9}.capabilities{display:flex;justify-content:center;gap:9px;flex-wrap:wrap;margin:21px 0}.capabilities span{border:1px solid #e2e7dd;border-radius:5px;background:#fafcf6;color:#8a9d84;font-size:9px;padding:4px 8px}.ai-container{width:100%;height:460px;min-width:0}.ai-container:empty{display:none}.ai-stage.embedded{display:block}.ai-stage.embedded .empty-state{display:none}.composer{border-top:1px solid #e5e8e0;padding:20px 25px;background:#fffefa}.composer-heading{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:9px;font-size:11px;color:#748677}.save-state{font-size:9px;color:#899d85;text-align:right}.composer textarea{background:#fbfcf8;min-height:115px}.compose-actions{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:11px}.compose-actions .secondary{font-size:10px;padding:8px 11px}.text-button{border:0;background:transparent;font-size:10px;padding:7px;color:#8b9585}.text-button:hover{color:var(--ink)}.privacy{font-size:9px;line-height:1.9;color:#99a391;margin-top:12px}.toast{margin-top:12px;border:1px solid #d5e1d1;border-radius:7px;background:#edf3e9;color:#70856a;padding:9px 12px;font-size:11px;overflow-wrap:anywhere}.toast:empty{display:none}footer{padding-block:26px 36px;display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:10px;color:#929d93}.footer-brand{font-family:Georgia,serif;font-size:15px;color:#758a85}.skip-link{position:absolute;left:15px;top:-100px;z-index:99;background:white;padding:10px}.skip-link:focus{top:15px}[hidden]{display:none!important}
+    @media(max-width:1000px){.hero{padding:37px 35px;gap:20px}.hero-visual{min-height:250px}.orbit{width:200px;height:200px}.compass{width:125px;height:125px}.tag-one{left:-4px}.tag-two{right:-10px}.floating-tag{font-size:9px;padding:8px 10px}.workbench{grid-template-columns:260px minmax(0,1fr)}.context{padding:23px 20px}.feature{padding:21px}.nav{gap:22px}.brand-name{font-size:23px}}
+    @media(max-width:760px){main,header,footer{padding-inline:20px}.topbar{height:88px}.nav a:not(.nav-action){display:none}.nav .nav-action{padding:8px 12px;font-size:11px}.brand{gap:8px}.brand-name{font-size:21px}.brand-sub{font-size:6px;letter-spacing:1.7px}.brand-icon{width:34px;height:40px}.hero{grid-template-columns:1fr;padding:32px 27px;min-height:auto}.hero-visual{display:none}.hero h1{font-size:32px;margin-top:19px}.intro{font-size:12px}.feature-grid{gap:10px;margin-bottom:34px}.feature{padding:17px 15px}.feature p{font-size:10px}.feature h3{font-size:12px}.workbench{grid-template-columns:1fr}.context{border-right:0;border-bottom:1px solid var(--line);padding:22px}.context-fields{display:grid;grid-template-columns:1fr 1fr;column-gap:14px}.context-fields label:last-child{grid-column:1/-1;margin-bottom:0}.context>p{margin-bottom:18px}.context .divider{margin:18px 0}.prompt-list{display:flex;flex-wrap:wrap;gap:7px}.prompt-chip{display:inline-block;width:auto;margin:0;padding:8px 10px;font-size:10px}.context-bottom{margin-top:14px}.chat-header{padding:18px 22px}.composer{padding:20px 22px}.section-heading{align-items:start}.section-heading h2{font-size:21px}.section-heading>p{font-size:10px;max-width:120px;padding-top:20px}.empty-state{padding:30px 22px}.ai-stage{min-height:300px}footer{font-size:9px}.ai-container{height:520px}}
+    @media(max-width:420px){main,header,footer{padding-inline:16px}.hero{padding:28px 23px}.hero h1{font-size:29px}.hero-bottom{gap:10px;flex-wrap:wrap}.hero-note{font-size:9px}.feature-grid{grid-template-columns:1fr;gap:10px;margin-top:14px}.feature{display:grid;grid-template-columns:44px 1fr;column-gap:8px;padding:16px 19px}.feature-top{grid-row:1/3;align-self:center;justify-content:start;gap:7px;margin:0}.feature h3{margin-bottom:3px}.feature p{font-size:11px}.feature-number{font-size:14px}.feature-icon{display:none}.section-heading>p{display:none}.chat-header{padding:16px 18px}.composer{padding:18px}.save-state{font-size:8px}.compose-actions .secondary{padding:8px 10px}footer{align-items:start}.brand-name{font-size:20px}.brand-sub{letter-spacing:1.4px}.nav .nav-action{font-size:10px;padding:8px 10px}}
+    /* 按钮微交互：悬停抬升、按压反馈、点击涟漪。 */
+    :is(.primary,.secondary,.prompt-chip,.text-button,.nav-action){
+      position:relative;
+      isolation:isolate;
+      overflow:hidden;
+      touch-action:manipulation;
+      transition:transform .2s ease,box-shadow .2s ease,background-color .2s ease,border-color .2s ease,color .2s ease;
+    }
+    .primary > span:not(.button-ripple){display:inline-block;transition:transform .2s ease}
+    @media(hover:hover) and (pointer:fine){
+      :is(.primary,.secondary,.prompt-chip,.nav-action):not(:disabled):hover{
+        transform:translateY(-2px);
+        box-shadow:0 6px 16px #30495314;
+        border-color:#aebfb4;
+      }
+      .primary:not(:disabled):hover{box-shadow:0 7px 19px #30495324}
+      .primary:not(:disabled):hover > span:not(.button-ripple){transform:translate(2px,-2px)}
+      .text-button:hover{background:#e8ede480}
+    }
+    :is(.primary,.secondary,.prompt-chip,.text-button,.nav-action):not(:disabled):active{
+      transform:translateY(1px) scale(.975);
+      box-shadow:0 1px 3px #30495312;
+    }
+    .button-ripple{
+      position:absolute;
+      left:var(--ripple-x);
+      top:var(--ripple-y);
+      width:var(--ripple-size);
+      height:var(--ripple-size);
+      margin:0;
+      border-radius:50%;
+      background:currentColor;
+      opacity:0;
+      pointer-events:none;
+      z-index:-1;
+      animation:button-ripple .55s ease-out both;
+    }
+    @keyframes button-ripple{
+      from{transform:translate(-50%,-50%) scale(0);opacity:.17}
+      to{transform:translate(-50%,-50%) scale(1);opacity:0}
+    }
+    @media(prefers-reduced-motion:reduce){
+      html{scroll-behavior:auto}
+      :is(.primary,.secondary,.prompt-chip,.text-button,.nav-action),
+      .primary > span:not(.button-ripple){transition:none!important}
+      :is(.primary,.secondary,.prompt-chip,.text-button,.nav-action):not(:disabled):is(:hover,:active),
+      .primary:not(:disabled):hover > span:not(.button-ripple){transform:none!important}
+      .button-ripple{display:none;animation:none}
+    }
+
+    .live-section{margin:38px 0;scroll-margin-top:20px}.live-summary{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:20px 0}.live-summary>div{border:1px solid var(--line);border-radius:14px;background:var(--paper);padding:19px 22px}.live-summary span{display:block;font-size:10px;color:var(--muted)}.live-summary strong{display:block;font-size:29px;font-weight:500;margin-top:5px}.live-summary .time-value{font-size:12px;margin-top:16px}.live-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.live-card{border:1px solid var(--line);background:var(--paper);border-radius:17px;padding:24px;margin-bottom:18px;min-width:0}.live-card h3{font-size:15px;font-weight:600}.live-hint{font-size:10px;color:#82918a;line-height:1.9;margin:7px 0 15px}.input-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.inline-check{display:flex;align-items:center;gap:8px;font-size:10px}.inline-check input{width:14px}.inline-notice,.sample-note{font-size:10px;color:#8c7f65;border:1px solid #e6dfcf;background:#f8f4eb;border-radius:7px;padding:11px;margin:14px 0}.sample-note{color:#81917c;background:#f2f5ec;border-color:#e1e6d8}.row-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:17px}.filter-row{display:flex;gap:8px;max-width:400px}.filter-row select{max-width:150px}.comment-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.comment-item,.document-item,.source-item{padding:16px;border:1px solid #e2e5dc;border-radius:10px;min-width:0;background:#fafbf7}.comment-item .original-text,.document-item pre{font-size:12px;line-height:1.9;white-space:pre-wrap;overflow-wrap:anywhere;color:#546b62;margin:12px 0}.source-item{margin-top:12px}.source-item strong{font-size:11px}.source-item code,.comment-item code,.document-item code{display:block;font-size:9px;color:#8b9c88;overflow-wrap:anywhere;margin:6px 0}.source-item .source-target{font-size:10px;color:#82917f;overflow-wrap:anywhere}.meta-line{font-size:9px;color:#8b9b86;line-height:1.9;overflow-wrap:anywhere}.mode-badge{display:inline-block;border-radius:4px;padding:2px 6px;font-size:9px;background:#e8eee2;color:#758b6a;margin-right:5px}.mode-badge.imported{background:#e6edf0;color:#7b8f99}.mode-badge.error{background:#f3e7df;color:#a1826e}.source-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}.source-actions button{font-size:10px}.external-link{font-size:10px;color:#607e75;display:inline-block;border-bottom:1px solid #bccdc3;margin-top:10px}.event-list{max-height:280px;overflow:auto}.event-row{padding:12px 0;border-bottom:1px solid #e7e9e0;font-size:10px;color:#7a8c77}.event-row small{display:block;color:#9aa58f;font-size:9px}.document-list{display:grid;gap:12px;max-height:570px;overflow:auto}.document-item h4{font-size:12px;margin:8px 0}.document-item details{font-size:10px;color:#82917c}.document-item pre{max-height:260px;overflow:auto}.file-control{position:relative;cursor:pointer;margin:0}.file-control input{position:absolute;inset:0;width:100%;opacity:0;cursor:pointer}.empty-result{font-size:11px;color:#93a08a;padding:22px 0;grid-column:1/-1}.pager{margin-top:16px;margin-bottom:0}.conversation{padding:24px;max-height:620px;overflow:auto;width:100%;align-self:stretch}.ai-stage:has(.conversation:not([hidden])){display:block}.ai-stage:has(.conversation:not([hidden])) .empty-state{display:none}.message{border:1px solid #dce5d9;background:#f8fbf3;border-radius:12px;padding:16px;margin-bottom:14px;font-size:12px;line-height:1.9;overflow-wrap:anywhere;white-space:pre-wrap}.message.user{background:#eef2ed;border-color:#dce3d8;margin-left:35px}.message-label{font-size:9px;color:#849a7e;display:block;margin-bottom:8px}.citation{display:block;text-align:left;width:100%;background:#fffefa;border:1px solid #dce4d5;border-radius:8px;padding:11px;margin:8px 0;color:#6c8165;font-size:11px}.citation small{display:block;font-size:9px;color:#97a38d}.risk-note{font-size:10px;color:#9b855f;background:#f8f3e9;border-radius:6px;padding:9px;margin-top:9px}.composer #assistant-mode{width:auto;max-width:240px;font-size:10px;padding:8px}.global-feedback{position:fixed;right:20px;bottom:20px;z-index:100;max-width:min(430px,calc(100vw - 40px));border:1px solid #cbdac6;background:#f0f6ea;color:#65805a;border-radius:10px;padding:15px 19px;font-size:12px;box-shadow:0 8px 28px #30495314;overflow-wrap:anywhere}.global-feedback:empty{display:none}.footer-actions{display:flex;gap:15px;align-items:center;flex-wrap:wrap}.status.error{background:#f5ebe2;border-color:#e9d9c8;color:#9e826a}.citation-dialog{border:1px solid var(--line);border-radius:18px;max-width:620px;width:calc(100% - 36px);color:var(--ink);padding:25px;background:var(--paper)}.citation-dialog::backdrop{background:#20392c42}.citation-dialog pre{white-space:pre-wrap;overflow-wrap:anywhere;max-height:55vh;overflow:auto;font-size:12px;line-height:1.9}.citation-dialog code{font-size:10px;overflow-wrap:anywhere}.live-card summary{font-size:11px;color:#81917b;cursor:pointer;margin:12px 0}.nav{gap:19px}.empty-state .capabilities{margin-bottom:0}
+    @media(max-width:900px){.live-grid{grid-template-columns:1fr}.live-summary{gap:10px}.live-summary>div{padding:16px}.comment-grid{grid-template-columns:1fr}}
+    @media(max-width:640px){.live-summary{grid-template-columns:1fr 1fr}.live-card{padding:18px}.input-grid{grid-template-columns:1fr;gap:0}.row-head{align-items:start;flex-wrap:wrap}.filter-row{width:100%;max-width:none}.filter-row input{min-width:0}.source-actions{gap:8px}.conversation{padding:17px}.message.user{margin-left:15px}.footer-actions{gap:8px}.global-feedback{bottom:12px;right:12px;max-width:calc(100vw - 24px)}.live-summary strong{font-size:25px}.live-summary .time-value{font-size:11px}.source-target{word-break:break-word}}
+    .connection-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 18px;margin:0 0 18px;background:#eef2e9;border:1px solid #d9e3d1;border-radius:12px}.connection-bar>span{font-size:11px;color:#75876d;line-height:1.8;min-width:0}.connection-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;flex-shrink:0}.connection-actions .secondary,.connection-actions .primary{font-size:10px;padding:8px 11px}@media(max-width:900px){.connection-bar{align-items:start;flex-direction:column}.connection-actions{width:100%;flex-shrink:1}.connection-bar>span{font-size:10px}}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#workspace">跳至创作空间</a>
+  <header class="topbar">
+    <a class="brand" href="#overview" aria-label="content studio 项目概览">
+      <svg class="brand-icon" viewBox="0 0 80 80" fill="none" aria-hidden="true"><g stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="40" cy="43" r="25"/><ellipse cx="40" cy="43" rx="13" ry="25" opacity=".65"/><path d="M15 43h50M21 26q19 13 38 0" opacity=".65"/><circle cx="40" cy="10" r="6"/><path d="M40 16v2m15 11-9 20-21 9 10-21 20-8Z" fill="#f3f2ed"/><path d="m55 29-20 8 11 12 9-20Z" fill="currentColor"/><circle cx="40" cy="43" r="4" fill="#f3f2ed"/></g></svg>
+      <span class="brand-name">content studio<span class="brand-sub">CROSS-BORDER CONTENT GENERATION</span></span>
+    </a>
+    <nav class="nav" aria-label="主导航"><a href="#overview">项目概览</a><a href="#radar">评论雷达</a><a href="#library">知识库</a><a href="#workspace">创作助手</a><a class="nav-action" href="#workspace">开始创作 ↗</a></nav>
+  </header>
+  <main>
+    <!-- 项目简介依据随附 README.md 的项目定位及核心流程内嵌；无需联网读取 Markdown。 -->
+    <section class="hero" id="overview" aria-labelledby="hero-title">
+      <div>
+        <div class="eyebrow">From insight to story</div>
+        <h1 id="hero-title">让跨境表达，<br>有故事，<span>也有依据。</span></h1>
+        <p class="intro">从海外消费者评论中发现需求与文化理解差异，结合真实品牌资料，组织可追溯的本地化内容，并关注缺少依据的表达。</p>
+        <div class="hero-bottom"><a class="primary" href="#workspace">进入创作空间 <span aria-hidden="true">↗</span></a><span class="hero-note">评论驱动 · 事实为底 · 表达有界</span></div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit"></div><span class="floating-tag tag-one">“消费者真正关心什么？”</span>
+        <svg class="compass" viewBox="0 0 120 120" fill="none"><g stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="60" cy="64" r="39"/><ellipse cx="60" cy="64" rx="21" ry="39" opacity=".6"/><path d="M21 64h78M30 39q30 20 60 0M28 88q32-20 64 0" opacity=".6"/><circle cx="60" cy="12" r="9"/><path d="M60 21v4m25 15-15 35-35 15 15-35 35-15Z" fill="#e1e9e6"/><path d="m85 40-35 15 20 20 15-35Z" fill="currentColor"/><circle cx="60" cy="65" r="6" fill="#e1e9e6"/></g></svg>
+        <span class="floating-tag tag-two">把真实资料，变成清晰的故事</span><i class="visual-dot"></i>
+      </div>
+    </section>
+    <section class="feature-grid" aria-label="项目关注的三个方向">
+      <article class="feature"><div class="feature-top"><span class="feature-number">01</span><span class="feature-icon">INSIGHT</span></div><h3>从评论，理解需求</h3><p>关注消费者的真实问题，让洞察能够回到原始声音。</p></article>
+      <article class="feature"><div class="feature-top"><span class="feature-number">02</span><span class="feature-icon">CULTURE</span></div><h3>跨语境，不跨事实</h3><p>连接文化理解差异，解释具体信息，保留表达边界。</p></article>
+      <article class="feature"><div class="feature-top"><span class="feature-number">03</span><span class="feature-icon">STORY</span></div><h3>让故事，有据可循</h3><p>区分品牌事实与消费者观点，不用评论证明产品功效。</p></article>
+    </section>
+    <section class="live-section" id="radar" aria-labelledby="radar-title">
+      <div class="section-heading"><div><div class="eyebrow">Voice of the market</div><h2 id="radar-title">评论雷达</h2></div><span id="backend-state" class="status" role="status">正在检测本机后端…</span></div>
+      <div class="connection-bar"><span id="connection-info" role="status">正在检测 HTML 与 API 的连接…</span><div class="connection-actions"><a class="secondary" id="connect-backend" href="http://127.0.0.1:8040/" target="_blank" rel="noopener noreferrer" hidden>打开已启动的本机 App ↗</a><button class="secondary" id="retry-backend" type="button">重新检测连接</button><button class="primary" id="quick-load" type="button" disabled>一键读取公开反馈 ↻</button></div></div>
+      <div class="live-summary"><div><span>本空间评论</span><strong id="comment-count">—</strong></div><div><span>知识资料</span><strong id="doc-count">—</strong></div><div><span>评论来源</span><strong id="source-count">—</strong></div><div><span>最后检测</span><strong class="time-value" id="server-time">—</strong></div></div>
+      <div class="live-grid"><section class="live-card"><h3>追踪公开声音</h3><p class="live-hint">分类显示原始反馈和更新时间；语言不能推断评论者国籍。</p><div class="input-grid"><label><span>来源类型</span><select id="source-provider"><option value="github">GitHub 公开产品讨论</option><option value="hn">Hacker News 英文讨论</option><option value="socialcrawl">Reddit · SocialCrawl</option></select></label><label><span id="target-label">公开议题链接</span><input id="source-target" placeholder="https://github.com/owner/repo/issues/123" maxlength="500"></label></div><label class="inline-check" id="auto-wrap"><input type="checkbox" id="source-auto">服务运行时每 5 分钟检查一次（免费源）</label><div id="cost-note" class="inline-notice" hidden>SocialCrawl 此端点每次约 5 credits；上游可能缓存。仅手动单页刷新，全服务每日最多 4 次请求。</div><button id="add-source" class="primary" type="button">添加来源</button><div id="source-list" class="source-list"><p class="live-hint">后端连接后显示来源。</p></div></section>
+      <section class="live-card"><div class="row-head"><h3>数据动态</h3><button class="text-button" id="refresh-dashboard" type="button">检查更新 ↻</button></div><div id="event-list" class="event-list"><p class="live-hint">暂无刷新记录。</p></div><div class="sample-note">公开技术讨论和商品评价分别看待；样本仅代表已读取页面。源站发表时间、服务读取时间、上游缓存状态分别展示。</div><details><summary>导入已有评论</summary><label><span>每行一条原始文本</span><textarea id="import-comments" maxlength="200000" placeholder="导入你有权使用并已去标识化的评论…"></textarea></label><button class="secondary" id="import-submit" type="button">导入并保留来源类型</button></details></section></div>
+      <section class="live-card"><div class="row-head"><h3>原始评论与反馈</h3><div class="filter-row"><select id="comment-mode" aria-label="评论数据模式"><option value="all">全部数据类型</option><option value="online">在线读取</option><option value="imported">用户导入</option></select><input id="comment-search" aria-label="搜索原评论" placeholder="搜索评论原文"></div></div><div id="comment-list" class="comment-grid"><p class="empty-result">后端未连接，暂无可显示的在线评论。</p></div><div class="row-head pager"><button class="secondary" id="prev-page" type="button" disabled>上一页</button><span id="comment-page" class="live-hint">第 1 页</span><button class="secondary" id="next-page" type="button" disabled>下一页</button></div></section>
+    </section>
+    <section class="live-section" id="library" aria-labelledby="library-title"><div class="section-heading"><div><div class="eyebrow">Knowledge with provenance</div><h2 id="library-title">让每份资料，都有身份。</h2></div><p>项目说明 / 品牌事实 / 成分材料 / 文化策略</p></div><div class="live-grid"><section class="live-card"><h3>知识库资料</h3><p class="live-hint">Markdown、TXT 可导入。品牌资料默认待人工核对，不因上传而验证。</p><div id="document-list" class="document-list"><p class="empty-result">连接后端后可读取内置项目说明。</p></div></section><section class="live-card"><h3>加入一份资料</h3><div class="input-grid"><label><span>资料标题</span><input id="document-title" maxlength="120" placeholder="如：产品成分说明"></label><label><span>分类</span><select id="document-category"><option>品牌资料</option><option>成分材料</option><option>项目说明</option><option>文化策略</option></select></label></div><label><span>材料或来源</span><input id="document-source" maxlength="200" placeholder="文件名、材料位置或原始出处"></label><label><span>资料正文</span><textarea id="document-text" maxlength="100000" placeholder="只加入真实资料，未确认信息请标注待补证。"></textarea></label><div class="compose-actions"><label class="secondary file-control">选择 Markdown / TXT<input type="file" id="document-file" accept=".md,.txt,text/plain,text/markdown"></label><button class="primary" id="document-submit" type="button">加入知识库</button></div></section></div></section>
+    <section id="workspace" aria-labelledby="workspace-title">
+      <div class="section-heading"><div><div class="eyebrow">Your content workspace</div><h2 id="workspace-title">带着资料，开始创作。</h2></div><p>把问题说清楚，让表达更有方向。</p></div>
+      <div class="workbench">
+        <aside class="context" aria-labelledby="context-title">
+          <div class="context-header"><h3 id="context-title">本次创作语境</h3><span class="small-label">CONTEXT</span></div>
+          <p>先明确对谁表达，再准备你希望讨论的问题。</p>
+          <div class="context-fields">
+            <label><span>目标市场</span><input id="market" value="美国" maxlength="80" autocomplete="off"></label>
+            <label><span>输出语言</span><input id="language" value="英语" maxlength="80" autocomplete="off"></label>
+            <label><span>使用渠道</span><select id="channel"><option>独立站</option><option>社交媒体</option><option>广告</option><option>其他</option></select></label>
+            <label><span>产品 / 品牌</span><input id="product" placeholder="如：日常保湿霜" maxlength="160" autocomplete="off"><small>没有确认的信息可以保留为“待验证”。</small></label>
+          </div>
+          <div class="divider"></div><div class="context-prompt">你想先从哪里开始？</div>
+          <div class="prompt-list">
+            <button class="prompt-chip" type="button" data-prompt="请根据我提供的评论，整理消费者关注的问题。为每条洞察标明原评论编号，区分明确表达和推断；没有资料时请先向我提问。">分析消费者的关注点 ↗</button>
+            <button class="prompt-chip" type="button" data-prompt="请根据我提供的品牌事实，讨论人物、地方、工序三种品牌故事角度。只使用已提供资料；缺少资料的版本请列出待补证问题，不要补写历史、人物或功效。">探索三种品牌故事角度 ↗</button>
+            <button class="prompt-chip" type="button" data-prompt="请逐句检查我提供的文案，指出没有依据的数字、历史、工艺、功效与保证性表达。区分编辑建议和有明确来源的规则，不给出保证合规的结论。">检查表达与事实依据 ↗</button>
+          </div>
+          <p class="context-bottom">消费者观点用于理解需求；品牌事实需要独立材料支持。涉及个人信息时，请先去标识化。</p>
+        </aside>
+        <div class="chat">
+          <div class="chat-header"><div class="chat-heading"><span class="assistant-icon" aria-hidden="true">✧</span><div><h3>AI 创作助手</h3><small>有据地提问，有边界地表达。</small></div></div><span class="status" id="ai-status" role="status">正在检测助手</span></div>
+          <div class="ai-stage" id="ai-stage"><div id="conversation" class="conversation" aria-live="polite" aria-label="对话记录" hidden></div>
+            <!-- AI 聊天窗口挂载容器；不包含模拟回答。 -->
+            <div id="coze-chat-container" class="ai-container" aria-label="AI 对话窗口"></div>
+            <div class="empty-state" id="ai-empty">
+              <div class="empty-icon" aria-hidden="true">✧</div><h3 id="ai-title">你的下一个故事，从一个问题开始。</h3>
+              <p id="ai-description">AI 助手尚未接入。你可以先整理创作语境与问题备忘；本页不会模拟 AI 回答，也不会自动抓取网页。</p>
+              <div class="capabilities"><span id="kb-capability">知识检索 · 检测中</span><span id="model-capability">模型 · 检测中</span></div>
+              <button class="primary" id="open-ai" type="button" disabled hidden>打开 AI 对话 <span aria-hidden="true">↗</span></button>
+            </div>
+          </div>
+          <div class="composer">
+            <div class="composer-heading"><label for="question" style="margin:0">问题备忘</label><span class="save-state" id="save-state" role="status">仅保存在本机</span></div>
+            <textarea id="question" maxlength="12000" placeholder="写下你的问题，并补充评论、品牌事实与材料来源。未知信息可以标注“待补证”。"></textarea>
+            <div class="compose-actions"><button class="primary" id="assistant-submit" type="button">检索并回答 ↗</button><select id="assistant-mode" aria-label="助手模式"><option value="retrieve">证据检索 · 不调用模型</option><option value="model">在线模型草稿</option></select><button class="secondary" id="copy-question" type="button">复制语境与问题</button><button class="secondary" id="download-note" type="button">下载备忘</button><button class="text-button" id="clear-note" type="button">清空备忘</button></div>
+            <p class="privacy">备忘自动保存在本机；点击回答才发送到本机后端。证据检索不调用模型。模型模式会把问题及最多 6 条检索片段发送给配置的模型服务；不发送整库。</p>
+            <div class="toast" id="notice" role="status" aria-live="polite"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><span class="footer-brand">content studio</span><div class="footer-actions"><button id="export-workspace" class="text-button" type="button">导出当前空间</button><button id="clear-workspace" class="text-button" type="button">清除服务端数据</button><span>事实可追溯，表达有边界。</span></div></footer><div id="app-feedback" class="global-feedback" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      'use strict';
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+      const animatedButtonSelector = '.primary,.secondary,.prompt-chip,.text-button,.nav-action';
+      function ripple(event) {
+        if (reducedMotion.matches || !(event.target instanceof Element)) return;
+        const button = event.target.closest(animatedButtonSelector);
+        if (!button || button.matches(':disabled,[aria-disabled="true"]')) return;
+        if (event.type === 'pointerdown' && (event.button !== 0 || !event.isPrimary)) return;
+        // 鼠标和触摸由 pointerdown 触发；键盘激活由 click 触发，避免重复。
+        if (event.type === 'click' && event.detail !== 0) return;
+        const rect = button.getBoundingClientRect();
+        const isPointer = event.type === 'pointerdown';
+        const dot = document.createElement('span');
+        dot.className = 'button-ripple';
+        dot.setAttribute('aria-hidden', 'true');
+        dot.style.setProperty('--ripple-x', (isPointer ? event.clientX - rect.left : rect.width / 2) + 'px');
+        dot.style.setProperty('--ripple-y', (isPointer ? event.clientY - rect.top : rect.height / 2) + 'px');
+        dot.style.setProperty('--ripple-size', Math.hypot(rect.width, rect.height) * 2 + 'px');
+        button.appendChild(dot);
+        dot.addEventListener('animationend', () => dot.remove(), {once:true});
+        setTimeout(() => dot.remove(), 700);
+      }
+      document.addEventListener('pointerdown', ripple);
+      document.addEventListener('click', ripple);
+      const $ = id => document.getElementById(id);
+      const fields = ['market', 'language', 'channel', 'product', 'question'];
+      const storageKey = 'content-studio-standalone-v1';
+      const initial = {market:'美国', language:'英语', channel:'独立站', product:'', question:''};
+      let timer, storageOK = true;
+      const notify = text => { $('notice').textContent = text; };
+      function save() {
+        clearTimeout(timer);
+        try {
+          localStorage.setItem(storageKey, JSON.stringify(Object.fromEntries(fields.map(key => [key, $(key).value]))));
+          $('save-state').textContent = '已保存到本机';
+        } catch (_) { storageOK = false; $('save-state').textContent = '保存失败 · 请下载备忘'; }
+      }
+      try {
+        const raw = localStorage.getItem(storageKey);
+        if (raw) {
+          const data = JSON.parse(raw);
+          if (!data || typeof data !== 'object' || fields.some(key => typeof data[key] !== 'string')) throw Error('format');
+          fields.forEach(key => { $(key).value = data[key].slice(0, key === 'question' ? 12000 : key === 'product' ? 160 : 80); });
+          if (!$('channel').value) $('channel').value = initial.channel;
+          $('save-state').textContent = '已恢复本机备忘';
+        }
+      } catch (_) { storageOK = false; $('save-state').textContent = '无法读取本机备忘'; notify('本机备忘暂时无法恢复。你仍可使用当前页面并下载新备忘。'); }
+      fields.forEach(key => $(key).addEventListener('input', () => {
+        $('save-state').textContent = storageOK ? '尚未保存…' : '本机保存可能不可用';
+        clearTimeout(timer); timer = setTimeout(save, 350);
+      }));
+      document.querySelectorAll('[data-prompt]').forEach(button => button.addEventListener('click', () => {
+        if ($('question').value.trim() && !confirm('用这个问题替换当前备忘？')) return;
+        $('question').value = button.dataset.prompt; save(); $('question').focus();
+        notify('问题已放入本机备忘，尚未发送给 AI。');
+      }));
+      function note() {
+        return '# content studio · 创作备忘\n\n目标市场：' + $('market').value + '\n输出语言：' + $('language').value + '\n使用渠道：' + $('channel').value + '\n产品 / 品牌：' + ($('product').value || '待补充') + '\n\n## 问题与资料\n\n' + $('question').value + '\n\n---\n这是本机整理的备忘，不是 AI 生成结果；未知事实需补证。\n';
+      }
+      $('copy-question').addEventListener('click', async () => {
+        if (!$('question').value.trim()) { notify('请先填写问题，或选择一个创作方向。'); $('question').focus(); return; }
+        try {
+          if (!navigator.clipboard || !window.isSecureContext) throw Error('clipboard');
+          await navigator.clipboard.writeText(note()); notify('已复制语境与问题，尚未发送给 AI。');
+        } catch (_) { $('question').focus(); $('question').select(); notify('当前环境不允许自动复制。已选中问题，可手动复制，或下载完整备忘。'); }
+      });
+      $('download-note').addEventListener('click', () => {
+        if (!$('question').value.trim()) { notify('请先填写需要保存的问题或资料。'); return; }
+        const url = URL.createObjectURL(new Blob(['\uFEFF' + note()], {type:'text/markdown;charset=utf-8'}));
+        const link = document.createElement('a'); link.href = url; link.download = 'content-studio-note.md'; link.click();
+        setTimeout(() => URL.revokeObjectURL(url), 1000); notify('备忘已交给浏览器下载。');
+      });
+      $('clear-note').addEventListener('click', () => {
+        if (!confirm('清空当前页面保存的创作语境和备忘？已下载的文件不受影响。')) return;
+        clearTimeout(timer); fields.forEach(key => { $(key).value = initial[key]; });
+        try { localStorage.removeItem(storageKey); $('save-state').textContent = '本机备忘已清除'; }
+        catch (_) { $('save-state').textContent = '页面已清空 · 本机存储清除失败'; }
+        notify('页面备忘已清空；AI 对话记录由实际接入的智能体独立管理。');
+      });
+      // 可选适配器只控制窗口，不据此声称鉴权、知识库或抓取已经成功。
+      window.ContentStudio = Object.freeze({
+        attachAI(adapter) {
+          if (!adapter || typeof adapter.open !== 'function') throw new TypeError('AI adapter.open must be a function');
+          $('ai-status').textContent = '对话组件已加载'; $('ai-status').classList.add('loaded');
+          $('ai-title').textContent = '准备好，让问题更进一步。';
+          $('ai-description').textContent = '对话组件已加载；账号鉴权、知识库和网页信息是否可用，以实际对话结果为准。备忘不会自动发送。';
+          $('open-ai').disabled = false;
+          $('open-ai').onclick = async () => {
+            try { await adapter.open(); }
+            catch (_) { $('ai-status').textContent = '对话打开失败'; notify('AI 对话未能打开，请稍后重试。本机备忘仍然保留。'); }
+          };
+          if (adapter.embedded === true && $('coze-chat-container').childElementCount > 0) $('ai-stage').classList.add('embedded');
+        }
+      });
+      window.addEventListener('pagehide', () => { if (timer) save(); });
+    })();
+  </script>
+
+  <script>
+    (() => {
+      'use strict';
+      const el = id => document.getElementById(id);
+      const make = (tag, cls, text) => { const e=document.createElement(tag); if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e; };
+      let workspace;
+      try{workspace=localStorage.getItem('content-studio-workspace-v2');if(!/^[A-Za-z0-9_-]{8,80}$/.test(workspace||'')){workspace='ws_'+crypto.randomUUID();localStorage.setItem('content-studio-workspace-v2',workspace);}}catch(_){workspace='ws_'+Date.now()+'_'+Math.random().toString(36).slice(2);}
+      let connected=false,page=1,total=0,feedbackTimer,commentTimer,lastRevision='';
+      const fmt=value=>{if(!value)return '尚无';const d=new Date(value);return Number.isNaN(d.getTime())?String(value):d.toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false});};
+      const feedback=(text)=>{el('app-feedback').textContent=text;clearTimeout(feedbackTimer);feedbackTimer=setTimeout(()=>el('app-feedback').textContent='',6500);};
+      const safeLink=value=>{try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)&&!u.username&&!u.password?u.href:null;}catch(_){return null;}};
+      async function api(path,body,query={}){
+        if(location.protocol==='file:')throw Error('本机后端未连接；本地备忘仍然可用。');
+        const url=new URL(path,location.origin);if(!body)Object.entries({workspace_id:workspace,...query}).forEach(([k,v])=>url.searchParams.set(k,String(v)));
+        const abort=new AbortController();const timer=setTimeout(()=>abort.abort(),40000);
+        try{const response=await fetch(url,{method:body?'POST':'GET',headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify({workspace_id:workspace,...body}):undefined,signal:abort.signal});let data;try{data=await response.json();}catch(_){throw Error('本机后端没有返回可识别的响应。');}if(!response.ok)throw Error(data?.error?.message||'请求未成功');return data;}catch(e){if(e.name==='AbortError')throw Error('本次请求超时；没有把旧数据标为新结果。');throw e;}finally{clearTimeout(timer);}
+      }
+      async function action(button,task){const old=button.textContent;button.disabled=true;button.textContent='处理中…';try{await task();}catch(e){feedback(e.message);}finally{button.disabled=false;button.textContent=old;}}
+      const stateText={idle:'待刷新',refreshing:'正在刷新',ok:'上次成功',error:'刷新失败'};
+      function renderSources(sources){
+        el('source-list').replaceChildren();
+        if(!sources.length){el('source-list').append(make('p','empty-result','暂无来源。添加一个公开链接并手动刷新。'));return;}
+        sources.forEach(s=>{const box=make('article','source-item');box.append(make('strong','',s.provider==='github'?'GitHub · 公开产品反馈':s.provider==='hn'?'Hacker News · 英文讨论':'Reddit · SocialCrawl'));const badge=make('span','mode-badge'+(s.status==='error'?' error':''),stateText[s.status]||s.status);box.append(document.createTextNode(' '),badge,make('p','source-target',s.target),make('code','',s.id),make('p','meta-line','最近尝试：'+fmt(s.last_attempt)+' / 成功读取：'+fmt(s.last_success)));
+          if(s.error)box.append(make('p','inline-notice',s.error));
+          if(s.meta?.coverage)box.append(make('p','meta-line',s.meta.coverage));
+          if(s.last_count!==undefined)box.append(make('p','meta-line','上次响应 '+s.last_count+' 条；上游缓存：'+(s.meta?.provider_cached===true?'是':s.meta?.provider_cached===false?'否':'未声明')));
+          const actions=make('div','source-actions');const refresh=make('button','secondary','刷新评论 ↻');refresh.type='button';refresh.disabled=s.status==='refreshing';refresh.onclick=()=>action(refresh,async()=>{try{const r=await api('/api/sources/refresh',{id:s.id});feedback('读取完成：新增 '+r.added+' 条、更新 '+r.updated+' 条、跳过 '+r.skipped+' 条。');}finally{await loadAll();}});actions.append(refresh);
+          if(s.provider!=='socialcrawl'){const auto=make('button','text-button',s.auto_refresh?'暂停自动更新':'开启 5 分钟更新');auto.type='button';auto.onclick=()=>action(auto,async()=>{await api('/api/sources/toggle',{id:s.id,enabled:!s.auto_refresh});await loadAll();});actions.append(auto);}
+          const remove=make('button','text-button','移除来源');remove.type='button';remove.onclick=()=>{if(!confirm('移除此来源？已保存的原评论会保留。'))return;action(remove,async()=>{await api('/api/sources/delete',{id:s.id});await loadAll();});};actions.append(remove);box.append(actions);el('source-list').append(box);
+        });
+      }
+      const dialog=make('dialog','citation-dialog');const close=make('button','secondary','关闭');close.type='button';close.onclick=()=>dialog.close();dialog.append(close);document.body.append(dialog);
+      function reference(ref){
+        while(dialog.children.length>1)dialog.lastChild.remove();dialog.append(make('h3','',ref.title||'原始依据'),make('code','',ref.citation_id||ref.id),make('p','live-hint',ref.status||'原始资料'),make('pre','',ref.text));const url=safeLink(ref.url);if(url){const a=make('a','external-link','查看原始出处 ↗');a.href=url;a.target='_blank';a.rel='noopener noreferrer';dialog.append(a);}dialog.showModal();
+      }
+      async function loadComments(){
+        const result=await api('/api/comments',null,{page,q:el('comment-search').value,mode:el('comment-mode').value});total=result.total;const container=el('comment-list');container.replaceChildren();
+        if(!result.items.length)container.append(make('p','empty-result','当前筛选没有评论。请添加来源刷新，或导入已有原文。'));
+        result.items.forEach(c=>{const item=make('article','comment-item');item.id='record-'+c.id;const head=make('div');head.append(make('span','mode-badge',c.kind==='product_feedback'?'问题反馈':c.kind==='discussion_reply'?'讨论回复':c.kind==='imported'?'导入评论':'公开讨论'));head.append(make('span','mode-badge '+(c.mode==='imported'?'imported':''),c.mode==='online'?'在线读取':'用户导入'));head.append(make('span','meta-line',c.source));item.append(head,make('code','',c.id),make('p','original-text',c.text.length>550?c.text.slice(0,550)+'…':c.text),make('p','meta-line','原发布时间：'+fmt(c.date)),make('p','meta-line','读取时间：'+fmt(c.last_seen)));const b=make('button','text-button','查看完整原文与出处 ↗');b.type='button';b.onclick=()=>reference({...c,citation_id:c.id,status:c.kind==='product_feedback'?'公开软件产品反馈，不是护肤品评价。':'原始讨论 / 评论，不证明品牌事实。'});item.append(b);container.append(item);});el('comment-page').textContent='第 '+page+' 页 · '+total+' 条匹配';el('prev-page').disabled=page<=1;el('next-page').disabled=page*30>=total;
+      }
+      async function loadKnowledge(){
+        const {items}=await api('/api/knowledge');const list=el('document-list');list.replaceChildren();items.forEach(d=>{const box=make('article','document-item');box.append(make('span','mode-badge '+(d.mode==='imported'?'imported':''),d.category),make('h4','',d.title),make('code','',d.id),make('p','meta-line',d.status+' · '+d.source));const details=make('details');details.append(make('summary','','查看资料原文'),make('pre','',d.text));box.append(details);if(d.mode!=='built_in'){const del=make('button','text-button','删除资料');del.type='button';del.onclick=()=>{if(!confirm('删除这份知识资料？之前引用它的草稿需要重新核对。'))return;action(del,async()=>{await api('/api/knowledge/delete',{id:d.id});await loadAll();});};box.append(del);}list.append(box);});
+      }
+      async function loadEvents(){const {items}=await api('/api/events');el('event-list').replaceChildren();if(!items.length)el('event-list').append(make('p','empty-result','暂无刷新记录。'));items.forEach(r=>{const d=make('div','event-row',r.status==='ok'?'读取成功 · 新增 '+r.added+' / 更新 '+r.updated:'读取未完成 · '+r.code);d.append(make('small','',fmt(r.at)),make('small','',r.source_id));el('event-list').append(d);});}
+      async function loadAll(){
+        try{const health=await api('/api/health');if(health.service!=='content-studio'||health.api_version!==1||health.status!=='ready')throw Error('后端版本或接口不匹配。');const state=await api('/api/status');if(lastRevision&&state.revision!==lastRevision){document.querySelectorAll('.conversation .message:not(.user)').forEach(card=>{if(!card.dataset.expired){card.dataset.expired='true';card.append(make('p','risk-note','依据资料已更新：本轮回答和引用需重新检索核对。'));}});}lastRevision=state.revision;connected=true;el('connection-info').textContent='HTML 与本机 API 已连接 · 评论、资料和回答均通过真实接口读写。';el('connect-backend').hidden=true;el('quick-load').disabled=false;el('assistant-mode').querySelector('[value=model]').disabled=!state.model_configured;el('assistant-mode').querySelector('[value=model]').textContent=state.model_configured?'在线模型草稿':'在线模型 · 尚未配置';el('backend-state').textContent='本机后端在线';el('backend-state').className='status loaded';el('comment-count').textContent=state.comments;el('doc-count').textContent=state.documents;el('source-count').textContent=state.sources.length;el('server-time').textContent=fmt(state.server_time);renderSources(state.sources);el('ai-status').textContent=state.model_configured?'知识检索 / 模型可用':'知识检索可用';el('ai-status').className='status loaded';el('ai-title').textContent='从真实资料，找到回答的依据。';el('ai-description').textContent='输入问题，检索当前空间的品牌资料与原评论。资料缺失时会如实提示；不会把检索结果冒充模型生成。';el('kb-capability').textContent='知识库 · '+state.documents+' 份资料';el('model-capability').textContent=state.model_configured?'模型 · 已配置，调用待验证':'模型 · 未配置';await Promise.all([loadComments(),loadKnowledge(),loadEvents()]);}
+        catch(e){connected=false;el('connection-info').textContent=location.protocol==='file:'?'当前是离线文件。打开已启动的本机 App 后，可连接评论与知识库。':'后端暂时不可用，备忘仍保留。可重新检测连接。';el('connect-backend').hidden=false;el('quick-load').disabled=true;el('backend-state').textContent='后端未连接';el('backend-state').className='status error';el('ai-status').textContent='后端未连接';el('ai-status').className='status';el('ai-title').textContent='本机备忘仍然可用。';el('ai-description').textContent='当前未连接可用后端；评论更新与知识检索暂不可用，不会显示伪造结果。';el('kb-capability').textContent='知识库 · 暂不可用';el('model-capability').textContent='模型 · 未连接';}
+      }
+      const updateProvider=()=>{const provider=el('source-provider').value;el('cost-note').hidden=provider!=='socialcrawl';el('auto-wrap').hidden=provider==='socialcrawl';el('target-label').textContent=provider==='hn'?'讨论关键词':provider==='github'?'公开议题链接':'Reddit 帖子链接';el('source-target').placeholder=provider==='hn'?'如：moisturizer / skincare':provider==='github'?'https://github.com/owner/repo/issues/123':'https://www.reddit.com/r/.../comments/...';el('source-target').value='';};
+      el('source-provider').onchange=updateProvider;
+      el('source-target').value='https://github.com/microsoft/vscode/issues/342665';
+      el('add-source').onclick=()=>action(el('add-source'),async()=>{const provider=el('source-provider').value;let allow=false;if(provider==='socialcrawl'){allow=confirm('确认添加付费 SocialCrawl 来源？每次手动刷新可能消耗约 5 credits，每日最多 4 次；不自动刷新。');if(!allow)return;}await api('/api/sources',{provider,target:el('source-target').value,auto_refresh:el('source-auto').checked,allow_paid:allow});feedback('来源已添加。手动刷新后才会读取评论；自动更新仅在你启用后运行。');await loadAll();});
+      el('retry-backend').onclick=()=>action(el('retry-backend'),async()=>{await loadAll();feedback(connected?'HTML 与后端连接正常。':'当前尚未连上后端，本机备忘仍然保留。');});
+      el('quick-load').onclick=()=>action(el('quick-load'),async()=>{
+        const target='https://github.com/microsoft/vscode/issues/342665';
+        const state=await api('/api/status');let source=state.sources.find(s=>s.provider==='github'&&s.target===target);
+        if(!source)source=(await api('/api/sources',{provider:'github',target,auto_refresh:false})).source;
+        try{const result=await api('/api/sources/refresh',{id:source.id});el('comment-mode').value='online';el('comment-search').value='';page=1;feedback('公开软件反馈已读取：新增 '+result.added+' 条，更新 '+result.updated+' 条。');}finally{await loadAll();}
+      });
+      el('refresh-dashboard').onclick=()=>action(el('refresh-dashboard'),loadAll);
+      el('comment-search').oninput=()=>{clearTimeout(commentTimer);commentTimer=setTimeout(()=>{page=1;loadComments().catch(e=>feedback(e.message));},300);};el('comment-mode').onchange=()=>{page=1;loadComments().catch(e=>feedback(e.message));};
+      el('prev-page').onclick=()=>{if(page>1){page--;loadComments().catch(e=>feedback(e.message));}};el('next-page').onclick=()=>{if(page*30<total){page++;loadComments().catch(e=>feedback(e.message));}};
+      el('import-submit').onclick=()=>action(el('import-submit'),async()=>{const text=el('import-comments').value;const comments=text.split(/\r?\n/).filter(x=>x.trim()).map(text=>({text,source:'手动导入'}));if(!comments.length)throw Error('请先粘贴评论。');const r=await api('/api/comments/import',{comments});feedback('导入完成：新增 '+r.added+' / 更新 '+r.updated+' / 跳过 '+r.skipped+'。');el('import-comments').value='';await loadAll();});
+      el('document-file').onchange=async e=>{const f=e.target.files[0];if(!f)return;if(f.size>300000){feedback('资料文件上限 300 KB。');return;}try{el('document-text').value=(await f.text()).slice(0,100000);el('document-title').value=f.name.slice(0,120);el('document-source').value=f.name;feedback('文件已读入编辑区，请核对后加入知识库。');}catch(_){feedback('文件读取失败。');}finally{e.target.value='';}};
+      el('document-submit').onclick=()=>action(el('document-submit'),async()=>{await api('/api/knowledge',{title:el('document-title').value,category:el('document-category').value,source:el('document-source').value,text:el('document-text').value});el('document-text').value='';el('document-title').value='';el('document-source').value='';feedback('知识资料已保存，状态为待人工核对。');await loadAll();});
+      function message(label,text,user=false){const card=make('article','message'+(user?' user':''));card.append(make('span','message-label',label),make('div','',text));el('conversation').hidden=false;el('conversation').append(card);card.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth',block:'nearest'});return card;}
+      el('assistant-mode').onchange=()=>el('assistant-submit').textContent=el('assistant-mode').value==='model'?'生成有据草稿 ↗':'检索并回答 ↗';
+      el('assistant-submit').onclick=()=>action(el('assistant-submit'),async()=>{const question=el('question').value.trim();if(!question)throw Error('请先写下问题。');const mode=el('assistant-mode').value;if(mode==='model'&&!confirm('模型模式会把问题与最多 6 条检索片段发送到服务端配置的模型服务，可能产生模型费用。继续？'))return;message('你',question,true);const pending=message('正在检索','正在读取当前空间资料…');try{const result=await api('/api/assistant',{question,mode,context:Object.fromEntries(['market','language','channel','product'].map(k=>[k,el(k).value]))});pending.remove();const card=message(result.label,result.answer);if(result.context)card.append(make('p','meta-line','本轮语境：'+Object.values(result.context).filter(Boolean).join(' · ')));result.citations.forEach(ref=>{const b=make('button','citation');b.type='button';b.append(make('strong','',ref.title),make('small','',ref.citation_id+' · '+ref.source+' · '+(ref.mode==='online'?'在线读取':ref.mode==='imported'?'用户资料':'内置项目说明')),make('span','',ref.text.slice(0,170)+'…'));b.onclick=()=>reference(ref);card.append(b);});result.risks.forEach(r=>card.append(make('p','risk-note',r.label+'：'+r.reason)));el('conversation').scrollTop=el('conversation').scrollHeight;}catch(e){pending.remove();message('本轮未完成',e.message);throw e;}});
+      el('export-workspace').onclick=()=>action(el('export-workspace'),async()=>{const data=await api('/api/export');const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='content-studio-live-workspace.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
+      el('clear-workspace').onclick=()=>{if(!confirm('清除当前空间在本机后端的来源、评论与用户资料？此操作不可撤销，建议先导出。'))return;action(el('clear-workspace'),async()=>{await api('/api/workspace/clear',{});el('conversation').replaceChildren();el('conversation').hidden=true;await loadAll();feedback('当前空间数据已清除，内置项目说明保留。');});};
+      loadAll();setInterval(()=>{if(!document.hidden)loadAll();},30000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)loadAll();});
+    })();
+  </script>
+
+  <!-- ====================【扣子WebSDK代码插入区域：开始】====================
+    此处保留可选 Coze 接入标记；当前知识检索和评论读取由本机后端提供。
+    bot_id: "YOUR_BOT_ID"
+    token:  "YOUR_WEB_ACCESS_TOKEN"
+    token 仅限适合公开网页的短期访问凭证；静态 HTML 无法隐藏长期密钥。
+    智能体知识库材料：本项目 README.md；网页信息能力以智能体实际配置为准。
+    嵌入容器：document.getElementById('coze-chat-container')
+    SDK 初始化代码应使用与其版本匹配的完整发布片段。
+    可选窗口适配器（在真实 SDK 初始化后执行，client 为真实 SDK 实例）：
+    window.ContentStudio.attachAI({ open: () => client.showChatBot() });
+    若实际 SDK 使用不同方法，以其真实公开接口替换 open 回调。
+  ======================【扣子WebSDK代码插入区域：结束】==================== -->
+  <!-- bot_id 与 token 替换位置在上方插入区；本文件不包含任何网站或 App 的操作指南。 -->
+</body>
+</html>

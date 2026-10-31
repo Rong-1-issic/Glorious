@@ -1,5 +1,18 @@
 # content studio｜跨境内容工作台
 
+## 当前单文件 App 与实时后端
+
+原生 HTML 入口为 `index.html`。实时评论、Markdown 知识库与证据助手已提供独立 Python 标准库后端：
+
+```bash
+cd "/workspace/Glorious/content studio"
+python3 start.py
+```
+
+完整说明见 [LIVE_BACKEND.md](LIVE_BACKEND.md)。GitHub 公开产品反馈已实测真实读取并入库；HN 与 SocialCrawl 的运行状态、网络/凭据限制单独记录。本地证据检索不冒充在线模型生成。直接打开 HTML 仍可使用本地备忘。
+
+以下保留独立的 Next.js 五模块工作台说明。
+
 面向 AI＋出海黑客松的本地工作台。原仓库活动网站保持不变，本应用单独位于 `content studio/`，不会随原 Pages 工作流发布。
 
 ## 启动
