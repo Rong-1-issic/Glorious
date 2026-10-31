@@ -1,0 +1,435 @@
+{
+  "schemaVersion": 1,
+  "id": "project_cbed8ebd-1b5d-4ee8-813e-515b90052738",
+  "name": "青屿 · 美国市场叙事",
+  "country": "美国",
+  "language": "英语",
+  "category": "保湿护肤品",
+  "product": "青屿日常保湿霜",
+  "usage": "日常保湿",
+  "audience": "偏好轻盈肤感、关注成分透明的消费者",
+  "audienceBasis": "演示样本假设，待真实消费者验证",
+  "channel": "独立站",
+  "mode": "demo",
+  "comments": [
+    {
+      "id": "demo-comment-1",
+      "text": "I want a moisturizer that is not sticky. I read the ingredient list before buying.",
+      "origins": [
+        {
+          "comment_id": "D1",
+          "source": "演示评论",
+          "url": "",
+          "date": "2026-10-10",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "id": "demo-comment-2",
+      "text": "Not sticky is important in my morning routine. What does botanical care mean?",
+      "origins": [
+        {
+          "comment_id": "D2",
+          "source": "演示访谈",
+          "url": "",
+          "date": "2026-10-11",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "id": "demo-comment-3",
+      "text": "I prefer a simple ingredient list and clear instructions.",
+      "origins": [
+        {
+          "comment_id": "D3",
+          "source": "演示评论",
+          "url": "",
+          "date": "2026-10-12",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "id": "demo-comment-4",
+      "text": "The texture feels lightweight. I want to know where the ingredients come from.",
+      "origins": [
+        {
+          "comment_id": "D4",
+          "source": "演示访谈",
+          "url": "",
+          "date": "2026-10-13",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "id": "demo-comment-5",
+      "text": "I am unsure what an ancient formula means. Please explain the actual ingredients.",
+      "origins": [
+        {
+          "comment_id": "D5",
+          "source": "演示评论",
+          "url": "",
+          "date": "2026-10-14",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "id": "demo-comment-6",
+      "text": "I want packaging that looks calm and simple, not a medical promise.",
+      "origins": [
+        {
+          "comment_id": "D6",
+          "source": "演示访谈",
+          "url": "",
+          "date": "2026-10-15",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "id": "demo-comment-7",
+      "text": "I need a moisturizer for my daily routine. Fragrance information matters to me.",
+      "origins": [
+        {
+          "comment_id": "D7",
+          "source": "演示评论",
+          "url": "",
+          "date": "2026-10-16",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "id": "demo-comment-8",
+      "text": "Please tell me who makes this and how it is made.",
+      "origins": [
+        {
+          "comment_id": "D8",
+          "source": "演示访谈",
+          "url": "",
+          "date": "2026-10-17",
+          "language": "en"
+        }
+      ]
+    }
+  ],
+  "rawCount": 8,
+  "emptyCount": 0,
+  "facts": [
+    {
+      "id": "demo-fact-1",
+      "content": "品牌名称为青屿，产品为日常保湿霜。",
+      "source": "演示品牌资料，不是真实商家证明",
+      "status": "商家提供，未附证明",
+      "kind": "产品"
+    },
+    {
+      "id": "demo-fact-2",
+      "content": "演示成分资料列有燕麦提取物。此信息不证明任何功效。",
+      "source": "演示成分表，不是真实检测报告",
+      "status": "已附支持材料，待人工核对",
+      "kind": "成分"
+    },
+    {
+      "id": "demo-fact-3",
+      "content": "虚构演示人物 Lin 负责整理品牌提供的产品信息与成分说明。",
+      "source": "虚构人物设定，仅用于演示，不是真实人物经历或授权",
+      "status": "商家提供，未附证明",
+      "kind": "人物"
+    },
+    {
+      "id": "demo-fact-4",
+      "content": "虚构演示工作室设于杭州；此地点不是产品产地声明。",
+      "source": "虚构地点设定，仅用于演示，不证明生产地或原料来源",
+      "status": "商家提供，未附证明",
+      "kind": "地方"
+    },
+    {
+      "id": "demo-fact-5",
+      "content": "演示信息整理流程为：整理商家成分资料、人工核对标签，再制作产品说明。这不是生产工艺或检测。",
+      "source": "虚构说明流程，仅用于演示，不是检测或生产记录",
+      "status": "商家提供，未附证明",
+      "kind": "工序"
+    }
+  ],
+  "insights": [
+    {
+      "id": "demo-insight-1",
+      "text": "部分样本明确关心不黏腻的使用感；不能据此声称本产品不黏腻。",
+      "category": "功能需求",
+      "commentIds": [
+        "demo-comment-1",
+        "demo-comment-2"
+      ],
+      "inferred": false,
+      "status": "待确认",
+      "selected": true
+    },
+    {
+      "id": "demo-insight-2",
+      "text": "消费者希望用具体成分信息理解“本草”表达。",
+      "category": "购买障碍",
+      "commentIds": [
+        "demo-comment-2",
+        "demo-comment-3",
+        "demo-comment-5"
+      ],
+      "inferred": true,
+      "status": "待确认",
+      "selected": false
+    },
+    {
+      "id": "demo-insight-3",
+      "text": "简洁视觉与透明叙述可能适合作为表达方向，仍需验证。",
+      "category": "审美偏好",
+      "commentIds": [
+        "demo-comment-6"
+      ],
+      "inferred": true,
+      "status": "待确认",
+      "selected": false
+    }
+  ],
+  "strategies": [
+    {
+      "id": "strategy_643b3f1d-29f4-47af-91b1-d1dc713575b7",
+      "original": "本草养肤",
+      "question": "想了解具体成分",
+      "factIds": [],
+      "difference": "待人工判断，不依据语言推断人口属性",
+      "action": "等待补证",
+      "gap": "",
+      "confirmed": true
+    }
+  ],
+  "versions": [
+    {
+      "id": "version_9537f061-0091-4531-971f-af2c6ac76c30",
+      "kind": "A 人物版",
+      "title": "让产品信息有一个清晰的讲述者",
+      "sentences": [
+        {
+          "id": "sentence_8f0d6473-4aea-4451-97f7-7a3261573235",
+          "en": "Meet Qingyu, a daily moisturizer.",
+          "zh": "认识青屿，一款日常保湿霜。",
+          "factIds": [
+            "demo-fact-1"
+          ],
+          "commentIds": [
+            "demo-comment-1",
+            "demo-comment-2"
+          ]
+        },
+        {
+          "id": "sentence_8e86d16a-036f-4527-a091-5bc9bb94bef0",
+          "en": "In this fictional demonstration, Lin organizes the product information and ingredient descriptions supplied by the brand.",
+          "zh": "虚构演示人物 Lin 负责整理品牌提供的产品信息与成分说明。",
+          "factIds": [
+            "demo-fact-3"
+          ],
+          "commentIds": [
+            "demo-comment-1",
+            "demo-comment-2"
+          ]
+        },
+        {
+          "id": "sentence_4bd1b2e2-6792-43e5-93e6-db0027ee79ae",
+          "en": "The supplied demonstration ingredient sheet lists oat extract. This does not establish any product benefit.",
+          "zh": "演示成分资料列有燕麦提取物。此信息不证明任何功效。",
+          "factIds": [
+            "demo-fact-2"
+          ],
+          "commentIds": [
+            "demo-comment-1",
+            "demo-comment-2"
+          ]
+        }
+      ],
+      "revision": 1,
+      "baseRevision": 5,
+      "checkedRevision": 0,
+      "findings": [],
+      "history": [],
+      "pending": "演示结果：仅使用演示事实，来源与表达均待真实商家核对；不证明生产地、功效或检测。"
+    },
+    {
+      "id": "version_26fccd1e-f150-4201-a96c-dc53a90073f7",
+      "kind": "B 地方版",
+      "title": "从杭州工作室，到更清晰的沟通",
+      "sentences": [
+        {
+          "id": "sentence_0628e700-9bc8-4f2f-9acd-6b9798da77a3",
+          "en": "Meet Qingyu, a daily moisturizer.",
+          "zh": "认识青屿，一款日常保湿霜。",
+          "factIds": [
+            "demo-fact-1"
+          ],
+          "commentIds": [
+            "demo-comment-1",
+            "demo-comment-2"
+          ]
+        },
+        {
+          "id": "sentence_d2e9a378-defe-4f23-9465-03c813cb1d43",
+          "en": "This fictional demonstration studio is based in Hangzhou. This is not a statement about where the product is made.",
+          "zh": "虚构演示工作室设于杭州；此地点不是产品产地声明。",
+          "factIds": [
+            "demo-fact-4"
+          ],
+          "commentIds": [
+            "demo-comment-1",
+            "demo-comment-2"
+          ]
+        },
+        {
+          "id": "sentence_86a28a74-5f1b-4227-ac22-ce6319bba3ff",
+          "en": "The supplied demonstration ingredient sheet lists oat extract. This does not establish any product benefit.",
+          "zh": "演示成分资料列有燕麦提取物。此信息不证明任何功效。",
+          "factIds": [
+            "demo-fact-2"
+          ],
+          "commentIds": [
+            "demo-comment-1",
+            "demo-comment-2"
+          ]
+        }
+      ],
+      "revision": 1,
+      "baseRevision": 5,
+      "checkedRevision": 0,
+      "findings": [],
+      "history": [],
+      "pending": "演示结果：仅使用演示事实，来源与表达均待真实商家核对；不证明生产地、功效或检测。"
+    },
+    {
+      "id": "version_1ad8998a-dfca-4400-9de5-fdc07d068356",
+      "kind": "C 工序版",
+      "title": "每一句说明，都从资料开始",
+      "sentences": [
+        {
+          "id": "sentence_a8d0ca39-0a48-458a-8c9d-2cef3dcb69fa",
+          "en": "Meet Qingyu, a daily moisturizer.",
+          "zh": "认识青屿，一款日常保湿霜。",
+          "factIds": [
+            "demo-fact-1"
+          ],
+          "commentIds": [
+            "demo-comment-1",
+            "demo-comment-2"
+          ]
+        },
+        {
+          "id": "sentence_2b4a2cc0-2212-4a01-876a-3a287dc31d34",
+          "en": "In this demonstration, information is prepared by organizing supplied ingredient documents, manually reviewing labels, and creating product descriptions. This is not a manufacturing or testing process.",
+          "zh": "演示信息整理流程为：整理商家成分资料、人工核对标签，再制作产品说明。这不是生产工艺或检测。",
+          "factIds": [
+            "demo-fact-5"
+          ],
+          "commentIds": [
+            "demo-comment-1",
+            "demo-comment-2"
+          ]
+        },
+        {
+          "id": "sentence_bfe4978e-583e-4ecf-9af0-9d3574c5fca1",
+          "en": "The supplied demonstration ingredient sheet lists oat extract. This does not establish any product benefit.",
+          "zh": "演示成分资料列有燕麦提取物。此信息不证明任何功效。",
+          "factIds": [
+            "demo-fact-2"
+          ],
+          "commentIds": [
+            "demo-comment-1",
+            "demo-comment-2"
+          ]
+        }
+      ],
+      "revision": 3,
+      "baseRevision": 5,
+      "checkedRevision": 3,
+      "findings": [
+        {
+          "id": "risk_5052ab87-ef13-402d-a212-a1007c63d054",
+          "sentenceId": "sentence_a8d0ca39-0a48-458a-8c9d-2cef3dcb69fa",
+          "reason": "引用事实尚未经人工核对",
+          "level": "需确认",
+          "suggestion": "人工核对来源，保留当前核对状态",
+          "scope": "英文与中文草稿；本地启发式规则，非法律意见",
+          "source": "编辑建议 · 2026-10-31；无外部规则库"
+        },
+        {
+          "id": "risk_242634d2-b0b2-4002-8256-233970981fed",
+          "sentenceId": "sentence_2b4a2cc0-2212-4a01-876a-3a287dc31d34",
+          "reason": "引用事实尚未经人工核对",
+          "level": "需确认",
+          "suggestion": "人工核对来源，保留当前核对状态",
+          "scope": "英文与中文草稿；本地启发式规则，非法律意见",
+          "source": "编辑建议 · 2026-10-31；无外部规则库"
+        },
+        {
+          "id": "risk_9238418a-23af-4ffe-bad6-8945150ce8db",
+          "sentenceId": "sentence_bfe4978e-583e-4ecf-9af0-9d3574c5fca1",
+          "reason": "引用事实尚未经人工核对",
+          "level": "需确认",
+          "suggestion": "人工核对来源，保留当前核对状态",
+          "scope": "英文与中文草稿；本地启发式规则，非法律意见",
+          "source": "编辑建议 · 2026-10-31；无外部规则库"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-31T05:45:37.674Z",
+          "text": "[{\"id\":\"sentence_a8d0ca39-0a48-458a-8c9d-2cef3dcb69fa\",\"en\":\"Meet Qingyu, a daily moisturizer.\",\"zh\":\"认识青屿，一款日常保湿霜。\",\"factIds\":[\"demo-fact-1\"],\"commentIds\":[\"demo-comment-1\",\"demo-comment-2\"]},{\"id\":\"sentence_2b4a2cc0-2212-4a01-876a-3a287dc31d34\",\"en\":\"In this demonstration, information is prepared by organizing supplied ingredient documents, manually reviewing labels, and creating product descriptions. This is not a manufacturing or testing process.\",\"zh\":\"演示信息整理流程为：整理商家成分资料、人工核对标签，再制作产品说明。这不是生产工艺或检测。\",\"factIds\":[\"demo-fact-5\"],\"commentIds\":[\"demo-comment-1\",\"demo-comment-2\"]},{\"id\":\"sentence_bfe4978e-583e-4ecf-9af0-9d3574c5fca1\",\"en\":\"The supplied demonstration ingredient sheet lists oat extract. This does not establish any product benefit.\",\"zh\":\"演示成分资料列有燕麦提取物。此信息不证明任何功效。\",\"factIds\":[\"demo-fact-2\"],\"commentIds\":[\"demo-comment-1\",\"demo-comment-2\"]}]"
+        }
+      ],
+      "pending": "演示结果：仅使用演示事实，来源与表达均待真实商家核对；不证明生产地、功效或检测。"
+    }
+  ],
+  "selectedVersion": "version_1ad8998a-dfca-4400-9de5-fdc07d068356",
+  "experiments": [
+    {
+      "id": "experiment_3538275b-2752-41c7-bb84-d5774e16658d",
+      "question": "哪种叙事更有助于理解品牌？",
+      "audience": "偏好轻盈肤感、关注成分透明的消费者",
+      "channel": "独立站",
+      "variable": "A 人物版叙事角度（其他条件保持一致）",
+      "metric": "理解度问卷与可信度反馈",
+      "plan": "同一招募条件，随机分组；先设定样本量与观察周期。",
+      "result": "",
+      "type": "真实用户反馈"
+    },
+    {
+      "id": "experiment_b0109970-4a57-44b6-b73e-cf1214f21d02",
+      "question": "哪种叙事更有助于理解品牌？",
+      "audience": "偏好轻盈肤感、关注成分透明的消费者",
+      "channel": "独立站",
+      "variable": "B 地方版叙事角度（其他条件保持一致）",
+      "metric": "理解度问卷与可信度反馈",
+      "plan": "同一招募条件，随机分组；先设定样本量与观察周期。",
+      "result": "",
+      "type": "真实用户反馈"
+    },
+    {
+      "id": "experiment_4915040f-c8ba-4ae2-a231-d53eba9be733",
+      "question": "哪种叙事更有助于理解品牌？",
+      "audience": "偏好轻盈肤感、关注成分透明的消费者",
+      "channel": "独立站",
+      "variable": "C 工序版叙事角度（其他条件保持一致）",
+      "metric": "理解度问卷与可信度反馈",
+      "plan": "同一招募条件，随机分组；先设定样本量与观察周期。",
+      "result": "",
+      "type": "真实用户反馈"
+    }
+  ],
+  "upstreamRevision": 5,
+  "contentRevision": 5,
+  "derived": {
+    "product": "Meet Qingyu, a daily moisturizer.\n认识青屿，一款日常保湿霜。\n\nIn this demonstration, information is prepared by organizing supplied ingredient documents, manually reviewing labels, and creating product descriptions. This is not a manufacturing or testing process.\n演示信息整理流程为：整理商家成分资料、人工核对标签，再制作产品说明。这不是生产工艺或检测。\n\nThe supplied demonstration ingredient sheet lists oat extract. This does not establish any product benefit.\n演示成分资料列有燕麦提取物。此信息不证明任何功效。",
+    "social": "Meet Qingyu, a daily moisturizer.\n认识青屿，一款日常保湿霜。",
+    "revision": 3
+  },
+  "updatedAt": "2026-10-31T05:45:37.823Z"
+}

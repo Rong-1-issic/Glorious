@@ -1,0 +1,2 @@
+# Preserve the exact UTF-8 BOM / CRLF bytes produced by the CSV exporter.
+examples/*.csv -text whitespace=cr-at-eol

@@ -1,0 +1,145 @@
+{
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 116,
+      "sha256": "039bc524041be7e3ce31eab672b62a0023deccd0714140c4222a30f5c04d0017"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 68,
+      "sha256": "e702ddc41d2e9fdad8516914f7af1132794f4c9dce7984e530677981ee3f75bd"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 679,
+      "sha256": "063098f6cb31bb44c6f8fbea25b3876de7ee1e5f7d00a50dbab506f6415eb7f0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4210,
+      "sha256": "1022f8f2e02630384e717a6a0e50f13546bb914f024ad8f9635c56bfd5ac5b85"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 2702,
+      "sha256": "ffc21a8a8f99d9e0d8d4b7352ac7298f6d10a718b4939b6da96daf7bb0de1159"
+    },
+    {
+      "path": "app/brand-mark.tsx",
+      "bytes": 1497,
+      "sha256": "3b4f7c87d62f28f25ca1456430ac9f30a418e5c7bd4bb332ddef602b01f888fa"
+    },
+    {
+      "path": "app/globals.css",
+      "bytes": 28113,
+      "sha256": "8a535510875e9801b47f0bbaba051b9366415efaeeed37c0b7629150358f4995"
+    },
+    {
+      "path": "app/icon.svg",
+      "bytes": 432,
+      "sha256": "8685ea56a74afc6fc38650edd3036d135fd53b6e5395557969b2b3e9df201032"
+    },
+    {
+      "path": "app/layout.tsx",
+      "bytes": 336,
+      "sha256": "25252f9ccb1911f3ba2ff8670e795020d479160da50599492c8b45a42d8dfc66"
+    },
+    {
+      "path": "app/page.tsx",
+      "bytes": 83128,
+      "sha256": "9bf1598a3c43a71077933793d65374a26e54d4239ec47a816417a92895c833d4"
+    },
+    {
+      "path": "docs/screenshots/desktop-evidence.png",
+      "bytes": 643955,
+      "sha256": "0b2fc38e85baca5d37c628d2f02b2259d94c5ed054f8556eed1c845513fad046"
+    },
+    {
+      "path": "docs/screenshots/desktop-project.png",
+      "bytes": 473781,
+      "sha256": "9ebe144a9437dcf996abaad69e8b94105321db3f9d5d439f862021c445750cf9"
+    },
+    {
+      "path": "docs/screenshots/desktop-studio.png",
+      "bytes": 356632,
+      "sha256": "50f909dbccae0a6958a8eaa33866fa43100300345e40df2548eb081077210db2"
+    },
+    {
+      "path": "docs/screenshots/mobile-project.png",
+      "bytes": 270126,
+      "sha256": "49eb2a4c1b789198d24954fdb20c9b436a3effb03716b4fde19892e9e22cb9c0"
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 637,
+      "sha256": "5c2aee977749d744c509538ea0fd65d304bfaab1769065a1be1f4d5d98fdf71f"
+    },
+    {
+      "path": "examples/demo-content-package.md",
+      "bytes": 3913,
+      "sha256": "6cd3f53fc7d5a5bd73e1aef6ddae61ba588bc14f42c4a54ae9739ee0d997fd47"
+    },
+    {
+      "path": "examples/demo-project.json",
+      "bytes": 16445,
+      "sha256": "8d80886433243d926f25657ac8340351811dcc9d686c76277bba2825c0a9cc08"
+    },
+    {
+      "path": "examples/experiments.csv",
+      "bytes": 1199,
+      "sha256": "eba9f8fd36af3409ba356be7fba6590ac43a65cb6ea264f0d1dbdbacdeda785f"
+    },
+    {
+      "path": "examples/sentence-evidence.csv",
+      "bytes": 2881,
+      "sha256": "491f111019772a00afeecdae946a6ad8668d0f336c4244ef2af5c0653e1f8c9c"
+    },
+    {
+      "path": "lib/core.test.ts",
+      "bytes": 3259,
+      "sha256": "b5ea129c85f75d406e93efc520ff1097c737a8cb710fcfe1da2742acb8f3c1c8"
+    },
+    {
+      "path": "lib/core.ts",
+      "bytes": 22160,
+      "sha256": "7bc400d8aabb42ae3f7c1de007881c8cc1fcae6c6fd81d33cda2b0c7094d22ed"
+    },
+    {
+      "path": "next-env.d.ts",
+      "bytes": 288,
+      "sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b"
+    },
+    {
+      "path": "next.config.ts",
+      "bytes": 128,
+      "sha256": "15fb3cf6eb2dd037037b91db437f879e8d400f7ce3f472999ade70965bf0ffb1"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 71801,
+      "sha256": "34fe954090bb9956114abe9381e930d64688619cf33a375fc62849495f83c8aa"
+    },
+    {
+      "path": "package.json",
+      "bytes": 640,
+      "sha256": "81bb008bc00ac94371d583669bf1c887a8f90489a5e6ba847f3d11cf6a25289c"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "bytes": 60,
+      "sha256": "a1a188221f064d964dd9958c3d48b0c23252fabbeb6099d95ee8e15c764718b0"
+    },
+    {
+      "path": "tests/browser.py",
+      "bytes": 6195,
+      "sha256": "1188ba3045a8ed7c35bb74d74ea715ac3d8a1cf75cdc1a5cbf6b1756aed59dd4"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 650,
+      "sha256": "3a048c27852b1b7bafc742e8ff53cffc34d0316c867f8a267758174a27804477"
+    }
+  ]
+}
